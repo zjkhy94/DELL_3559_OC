@@ -1,0 +1,1688 @@
+0:100  0:100  MemLog inited, TSC freq: 2400354520
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  
+0:100  0:000  Now is 2.8.2019,  12:12:30 (GMT)
+0:100  0:000  Starting Clover revision: 5033 on American Megatrends EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED | -D NO_GRUB_DRIVERS_EMBEDDED -D USE_LOW_EBDA -D HAVE_LEGACY_EMURUNTIMEDXE -a X64 -b RELEASE -t XCODE8 -n 5 | OS: 10.13.6 | XCODE: 10.1]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,FA7445BB-D3FC-4113-B04F-F87CA5688EF1,0x800,0xAE800) @6D26ED18
+0:100  0:000  SelfDirPath = \EFI\CLOVER
+0:100  0:000  === [ Get Smbios ] ========================================
+0:100  0:000  Type 16 Index = 0
+0:100  0:000  Total Memory Slots Count = 2
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 4096MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 DIMM A
+0:100  0:000  SmbiosTable.Type17->Vendor = Samsung
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 12151215
+0:100  0:000  SmbiosTable.Type17->PartNumber = M471B5173EB0-YK0  
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 4096MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 DIMM B
+0:100  0:000  SmbiosTable.Type17->Vendor = Samsung
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 12121212
+0:100  0:000  SmbiosTable.Type17->PartNumber = M471B5173EB0-YK0  
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: 'Vostro 3559' with board '0PW9RW'
+0:100  0:000  === [ GetCPUProperties ] ==================================
+0:100  0:000  CPU Vendor = 756E6547 Model=406E3
+0:100  0:000   The CPU supported SSE4.1
+0:100  0:000  BrandString = Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
+0:100  0:000   The CPU supported turbo
+0:100  0:000  MSR 0x35               20004
+0:100  0:000   TSC/CCC Information Leaf:
+0:100  0:000    numerator     : 200
+0:100  0:000    denominator   : 2
+0:100  0:000   Calibrated ARTFrequency: 24003545
+0:100  0:000  MSR 0xE2 before patch 1E008005
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xCE              0004043D_F1011800
+0:100  0:000  corrected FLEX_RATIO = 0
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency = 96 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:100  0:000  MaxDiv/MinDiv: 24.0/4
+0:100  0:000  Turbo: 27/27/27/28
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 4
+0:100  0:000  Cores: 2
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 2300 MHz
+0:100  0:000  TSC: 2300 MHz
+0:100  0:000  PIS: 100 MHz
+0:100  0:000  ExternalClock: 25 MHz
+0:100  0:000  === [ GetDevices ] ========================================
+0:100  0:000  PCI (00|00:00.00) : 8086 1904 class=060000
+0:100  0:000  PCI (00|00:02.00) : 8086 1916 class=030000
+0:100  0:000   - GFX: Model=Intel HD Graphics 520 (Intel)
+0:100  0:000  PCI (00|00:14.00) : 8086 9D2F class=0C0330
+0:100  0:000  PCI (00|00:14.02) : 8086 9D31 class=118000
+0:100  0:000  PCI (00|00:15.00) : 8086 9D60 class=118000
+0:100  0:000  PCI (00|00:15.01) : 8086 9D61 class=118000
+0:100  0:000  PCI (00|00:16.00) : 8086 9D3A class=078000
+0:100  0:000  PCI (00|00:17.00) : 8086 9D03 class=010601
+0:100  0:000  PCI (00|00:1C.00) : 8086 9D10 class=060400
+0:100  0:000  PCI (00|01:00.00) : 1002 6907 class=038000
+0:100  0:000   - GFX: Model=AMD Unknown (ATI/AMD)
+0:100  0:000  PCI (00|00:1C.04) : 8086 9D14 class=060400
+0:100  0:000  PCI (00|02:00.00) : 14E4 43B1 class=028000
+0:100  0:000   - WIFI: Vendor=Broadcom
+0:100  0:000  PCI (00|00:1C.05) : 8086 9D15 class=060400
+0:100  0:000  PCI (00|03:00.00) : 10EC 8168 class=020000
+0:100  0:000   - LAN: 0 Vendor=Realtek
+0:100  0:000  PCI (00|00:1F.00) : 8086 9D48 class=060100
+0:100  0:000  PCI (00|00:1F.02) : 8086 9D21 class=058000
+0:100  0:000  PCI (00|00:1F.03) : 8086 9D70 class=040300
+0:100  0:000  PCI (00|00:1F.04) : 8086 9D23 class=0C0500
+0:100  0:000  === [ GetDefaultSettings ] ================================
+0:100  0:000  Clover load options size = 150 bytes
+0:100  0:000  EFI\CLOVER\.plist not loaded with name from LoadOptions: Invalid Parameter
+0:102  0:001  EFI\CLOVER\config.plist loaded: Success
+0:105  0:003  === [ GetListOfThemes ] ===================================
+0:107  0:001  - [00]: blackMojave
+0:108  0:001  === [ Found config plists ] ===============================
+0:108  0:000  - config„o,.plist
+0:108  0:000  - config-backup.plist
+0:108  0:000  - config.plist
+0:108  0:000  === [ GetEarlyUserSettings ] ==============================
+0:108  0:000  timeout set to 2
+0:108  0:000  Custom boot CUSTOM_BOOT_THEME (0x0)
+0:108  0:000  KextsToPatch: 3 requested
+0:108  0:000   - [00]: com.apple.driver.AppleIntelLpssI2C (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: data len: 5
+0:108  0:000   - [01]: com.apple.driver.AppleIntelLpssI2CController (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: data len: 5
+0:108  0:000   - [02]: com.apple.driver.AppleIntelBDWGraphicsFramebuffer (Disable minStolenSize less or equal fStolenMemorySize assertion, 10.14 Credits (Sniki)) :: BinPatch :: data len: 5
+0:108  0:000  Default theme: blackMojave
+0:108  0:000  Hiding entries with string Preboot
+0:108  0:000  === [ LoadDrivers ] =======================================
+0:112  0:004  Loading ApfsDriverLoader-64.efi  status=Success
+0:116  0:003   - driver needs connecting
+0:116  0:000  Loading AptioMemoryFix-64.efi  status=Success
+0:119  0:003  Loading AudioDxe-64.efi  status=Success
+0:124  0:004   - driver needs connecting
+0:124  0:000  Loading DataHubDxe-64.efi  status=Success
+0:137  0:013  Loading FSInject-64.efi  status=Success
+0:140  0:002  2 drivers needs connecting ...
+0:140  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:140  0:000  APFS driver loaded
+0:140  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+4:460  4:320  === [ InitScreen ] ========================================
+4:460  0:000  Console modes reported: 4, available modes:
+4:460  0:000   - [01]: 80x25
+4:460  0:000   - [02]: 80x25
+4:460  0:000   - [03]: 100x31
+4:460  0:000   - [04]: 170x40 (current mode)
+4:460  0:000  SetMaxResolution: found best mode 0: 1366x768
+4:460  0:000   - already set
+4:460  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,FA7445BB-D3FC-4113-B04F-F87CA5688EF1,0x800,0xAE800)
+4:460  0:000  === [ GetMacAddress ] =====================================
+4:460  0:000  === [ ScanSPD ] ===========================================
+4:461  0:000  Scanning SMBus [8086:9D23], mmio: 0xDF52A004, ioport: 0xF040, hostc: 0x11
+4:479  0:017  Slot: 0 Type 24 4096MB 1600MHz Vendor=Samsung PartNo=M471B5173EB0-YK0 SerialNo=0107040507000A06
+4:497  0:018  Slot: 2 Type 24 4096MB 1600MHz Vendor=Samsung PartNo=M471B5173EB0-YK0 SerialNo=0908020304040503
+4:497  0:000  === [ GetAcpiTablesList ] =================================
+4:501  0:003  Get Acpi Tables List from RSDT:
+4:501  0:000   - [00]: FACP  CBX3    len=132
+4:501  0:000   - [01]: APIC  CBX3    len=132
+4:501  0:000   - [02]: FPDT  CBX3    len=68
+4:501  0:000   - [03]: FIDT  CBX3    len=156
+4:501  0:000   - [04]: MCFG  CBX3    len=60
+4:501  0:000   - [05]: HPET  CBX3    len=56
+4:501  0:000   - [06]: SSDT  SataTabl len=789
+4:501  0:000   - [07]: LPIT  SKL-ULT len=148
+4:501  0:000   - [08]: SSDT  sensrhub len=584
+4:501  0:000   - [09]: SSDT  PtidDevc len=11182
+4:501  0:000   - [10]: SSDT  Ther_Rvp len=3141
+4:501  0:000   - [11]: DBGP   len=52
+4:501  0:000   - [12]: DBG2   len=84
+4:501  0:000   - [13]: SSDT  xh_rvp07 len=1856
+4:501  0:000   - [14]: BOOT  CBX3     len=40
+4:501  0:000   - [15]: SSDT  SaSsdt  len=13617
+4:501  0:000   - [16]: UEFI   len=66
+4:501  0:000   - [17]: SSDT  CpuSsdt len=3672
+4:501  0:000   - [18]: MSDM  CBX3    len=85
+4:501  0:000   - [19]: SLIC  CBX3    len=374
+4:501  0:000   - [20]: BGRT   len=56
+4:501  0:000   - [21]: SSDT  SgPch len=1319
+4:501  0:000   - [22]: DMAR  SKL  len=240
+4:501  0:000   - [23]: TPM2  Tpm2Tabl len=52
+4:501  0:000   - [24]: SSDT  AmdTabl len=3528
+4:501  0:000   - [25]: ASF!   HCG len=165
+4:501  0:000  Calibrated TSC Frequency = 2400354520 = 2400MHz
+4:501  0:000  === [ GetUserSettings ] ===================================
+4:501  0:000  Add 1 devices:
+4:501  0:000  USB FixOwnership: yes
+4:501  0:000  Dropping 2 tables:
+4:501  0:000   - [00]: Drop table  signature="DMAR" (52414D44)
+4:501  0:000           - set table: 52414D44,                0 to drop: yes
+4:501  0:000   - [01]: Drop table  signature="MATS" (5354414D)
+4:501  0:000           - set table: 5354414D,                0 to drop: no
+4:501  0:000   - final DSDT Fix mask=00000011
+4:501  0:000  PatchesDSDT: 19 requested
+4:501  0:000   - [00]: (change BRT6 to BRTX) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+4:501  0:000   - [01]: (change _DSM to XDSM (NVDIMM)) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:501  0:000   - [02]: (change OSID to XSID (to avoid match against _OSI XOSI patch)) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:501  0:000   - [03]: (change _OSI to XOSI (OS)) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:501  0:000   - [04]: (_STA  to XSTA in RTC) lenToFind: 4, lenToReplace: 4, Target Bridge: RTC_
+4:501  0:000   - [05]: (ACPI0008:_STA to XSTA) lenToFind: 4, lenToReplace: 4, Target Bridge: ALSD
+4:501  0:000    patch disabled at config
+4:501  0:000   - [06]: (EV5 renamed XEV5) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+4:501  0:000   - [07]: (LID0 renamed LID) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:501  0:000   - [08]: (_PTS to ZPTS(1,N)) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+4:501  0:000   - [09]: (_WAK to ZWAK(1,N)) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+4:501  0:000   - [10]: (_LID to XLID) lenToFind: 5, lenToReplace: 5, Target Bridge: <null string>
+4:501  0:000   - [11]: (change GFX0 to IGPU) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:501  0:000   - [12]: (change AZAL to HDEF) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:501  0:000   - [13]: (change HDAS to HDEF) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:501  0:000   - [14]: (change EC0 to EC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:501  0:000   - [15]: (change EHC1 to EH01) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:501  0:000   - [16]: (change H_EC to EC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:501  0:000   - [17]: (change ECDV to EC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:501  0:000   - [18]: (change LPC to LPCB) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:501  0:000  Using ProductName from config: iMac18,1
+4:501  0:000  Using latest BiosVersion from clover
+4:501  0:000  BiosVersion: IM181.88Z.F000.B00.1906171613
+4:501  0:000  BiosReleaseDate: 06/17/2019
+4:501  0:000  Using latest EfiVersion from clover: 175.0.0.0.0
+4:501  0:000  Using FirmwareFeatures from config: 0xFC0FE137
+4:501  0:000  Using FirmwareFeaturesMask from config: 0xFF1FFF3F
+4:501  0:000  Board-ID set from config as Mac-4B682C642B45593E
+4:501  0:000  BoardType: 0xA
+4:501  0:000  ChassisType: 0x9
+4:502  0:000  === [ Found DSDT tables ] =================================
+4:821  0:319  === [ ScanVolumes ] =======================================
+4:822  0:000  Found 14 volumes with blockIO
+4:822  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+4:822  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)
+4:824  0:001          Result of bootcode detection: bootable unknown (legacy)
+4:824  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,FA7445BB-D3FC-4113-B04F-F87CA5688EF1,0x800,0xAE800)
+4:825  0:000          Result of bootcode detection: bootable Windows (vista,win)
+4:826  0:001          This is SelfVolume !!
+4:826  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,0CF06149-EBEB-4385-852C-A479523E1E85,0xAF748,0xDEF10A4)
+4:827  0:000          Result of bootcode detection: bootable Windows (vista,win)
+4:827  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,D204CC77-E70C-47F3-B354-1579BF2C6525,0xDFA07EC,0xA6814)
+4:828  0:000          Result of bootcode detection: bootable Windows (vista,win)
+4:830  0:002  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,F8A317D6-BD82-44A5-A5B5-347A8D240CE6,0xE047000,0x123000)
+4:831  0:000          Result of bootcode detection: bootable Windows (vista,win)
+4:831  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)
+4:831  0:000          Result of bootcode detection: bootable unknown (legacy)
+4:831  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,46ED8322-F88E-4F77-A5F0-083D5579D908,0x800,0xC800000)
+4:833  0:001          Result of bootcode detection: bootable Windows (vista,win)
+4:833  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,5588E3F4-5175-440D-9424-61046E80D6E7,0xC801000,0x67F05D8F)
+4:835  0:001          Result of bootcode detection: bootable Windows (vista,win)
+4:835  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6FFC6906FF46F048915858B7BBA87799)
+4:835  0:000          hiding this volume
+4:835  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A26FE7E783A709479195E83BDC263D3C)
+4:835  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D9DE99060F9F2C49A37B252B2BB9BE81)
+4:835  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,F67C9B197EB7634EA42C9B69479FA910)
+4:835  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,69D1492D1BBF9D429D1517BE3652D0A8)
+4:835  0:000  found 2 handles with audio
+4:835  0:000  No AudioIoDevice stored
+4:835  0:000  no stored audio parameters
+4:835  0:000  === [ InitTheme ] =========================================
+4:835  0:000  use daylight theme
+4:839  0:003  Using theme 'blackMojave' (EFI\CLOVER\themes\blackMojave)
+4:839  0:000  OS main and drive as badge
+4:842  0:002    Channels: 2  Sample rate: 44100 Hz  Bits: 16
+4:842  0:000  output to channel 0 with volume 70, len=414164
+4:842  0:000   sound channels=2 bits=16 freq=44100
+4:842  0:000  not found AudioIo to play
+4:842  0:000  free sound
+4:842  0:000  sound play end with status=Not Found
+4:845  0:003  Loading font from ThemeDir: Success
+4:846  0:000  theme inited
+4:846  0:000  Chosen theme blackMojave
+4:846  0:000  after NVRAM boot-args=
+4:846  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+4:846  0:000  no AppleSMC protocol
+4:865  0:019  === [ ScanLoader ] ========================================
+4:865  0:000  - [02]: 'ESP'
+4:876  0:010  - [04]: 'EFI'
+4:876  0:000          AddLoaderEntry for Volume Name=EFI
+4:890  0:013          AddLoaderEntry for Volume Name=EFI
+4:890  0:000          skipped because entry is hidden
+4:890  0:000  - [09]: 'Preboot', hidden
+4:890  0:000  - [10]: 'Mac OS -pn'
+4:906  0:016  - [11]: 'Recovery'
+4:906  0:000          AddLoaderEntry for Volume Name=Recovery
+4:918  0:011  - [12]: 'VM'
+4:925  0:007  - [13]: 'Mac OS'
+4:950  0:024          AddLoaderEntry for Volume Name=Mac OS
+4:956  0:005      Check if volume Is Hibernated:
+4:956  0:000      Check sleep image 'by signature':
+4:957  0:001      using default sleep image name = \private\var\vm\sleepimage
+4:959  0:001      sleepimage not found -> Not Found
+4:959  0:000      hibernated: no - sign
+4:959  0:000          [!] Icon 18 (icons\vol_internal_apfs.icns) not found (path: EFI\CLOVER\themes\blackMojave)
+4:967  0:008  === [ AddCustomTool ] =====================================
+4:968  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+4:968  0:000   - found entry 0. 'Boot Microsoft EFI Boot from EFI', Volume 'EFI', DevicePath 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,D204CC77-E70C-47F3-B354-1579BF2C6525,0xDFA07EC,0xA6814)\EFI\microsoft\Boot\bootmgfw.efii'
+4:968  0:000  DefaultIndex=0 and MainMenu.EntryCount=7
+5:129  0:160  can't bear mouse at all! Status=Unsupported
+5:130  0:001  can't bear mouse at timeout! Status=Unsupported
+5:130  0:000  GUI ready
+6:154  1:023  can't bear mouse at timeout! Status=Unsupported
+6:157  0:003  can't bear mouse at sel! Status=Unsupported
+7:439  1:281  exit from MainMenu 7
+17:236  9:797  can't bear mouse at all! Status=Unsupported
+18:305  1:068  exit from MainMenu 7
+28:999  10:693  can't bear mouse at all! Status=Unsupported
+31:599  2:599  exit from MainMenu 8
+31:599  0:000  ReinitSelfLib after theme change
+31:599  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,FA7445BB-D3FC-4113-B04F-F87CA5688EF1,0x800,0xAE800)
+31:599  0:000  === [ ScanVolumes ] =======================================
+31:599  0:000  Found 14 volumes with blockIO
+31:599  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+31:600  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)
+31:601  0:001          Result of bootcode detection: bootable unknown (legacy)
+31:601  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,FA7445BB-D3FC-4113-B04F-F87CA5688EF1,0x800,0xAE800)
+31:602  0:000          Result of bootcode detection: bootable Windows (vista,win)
+31:602  0:000          This is SelfVolume !!
+31:602  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,0CF06149-EBEB-4385-852C-A479523E1E85,0xAF748,0xDEF10A4)
+31:602  0:000          Result of bootcode detection: bootable Windows (vista,win)
+31:602  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,D204CC77-E70C-47F3-B354-1579BF2C6525,0xDFA07EC,0xA6814)
+31:603  0:000          Result of bootcode detection: bootable Windows (vista,win)
+31:603  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,F8A317D6-BD82-44A5-A5B5-347A8D240CE6,0xE047000,0x123000)
+31:604  0:000          Result of bootcode detection: bootable Windows (vista,win)
+31:604  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)
+31:605  0:000          Result of bootcode detection: bootable unknown (legacy)
+31:605  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,46ED8322-F88E-4F77-A5F0-083D5579D908,0x800,0xC800000)
+31:606  0:001          Result of bootcode detection: bootable Windows (vista,win)
+31:606  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,5588E3F4-5175-440D-9424-61046E80D6E7,0xC801000,0x67F05D8F)
+31:608  0:001          Result of bootcode detection: bootable Windows (vista,win)
+31:608  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6FFC6906FF46F048915858B7BBA87799)
+31:608  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A26FE7E783A709479195E83BDC263D3C)
+31:608  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D9DE99060F9F2C49A37B252B2BB9BE81)
+31:608  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,F67C9B197EB7634EA42C9B69479FA910)
+31:608  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,69D1492D1BBF9D429D1517BE3652D0A8)
+31:608  0:000  found 2 handles with audio
+31:609  0:000  No AudioIoDevice stored
+31:609  0:000  no stored audio parameters
+31:609  0:000  theme inited
+31:609  0:000  Chosen theme blackMojave
+31:609  0:000  after NVRAM boot-args=
+31:609  0:000  === [ ScanLoader ] ========================================
+31:609  0:000  - [02]: 'ESP'
+31:617  0:008  - [04]: 'EFI'
+31:617  0:000          AddLoaderEntry for Volume Name=EFI
+31:626  0:008          AddLoaderEntry for Volume Name=EFI
+31:627  0:000  - [09]: 'Preboot'
+31:628  0:001          AddLoaderEntry for Volume Name=Preboot
+31:631  0:002      Check if volume Is Hibernated:
+31:631  0:000      Check sleep image 'by signature':
+31:631  0:000      using default sleep image name = \private\var\vm\sleepimage
+31:631  0:000      sleepimage not found -> Not Found
+31:631  0:000      hibernated: no - sign
+31:639  0:008  - [10]: 'Mac OS -pn'
+31:647  0:007  - [11]: 'Recovery'
+31:647  0:000          AddLoaderEntry for Volume Name=Recovery
+31:656  0:009  - [12]: 'VM'
+31:664  0:007  - [13]: 'Mac OS'
+31:664  0:000          AddLoaderEntry for Volume Name=Mac OS
+31:665  0:000      Check if volume Is Hibernated:
+31:665  0:000      Check sleep image 'by signature':
+31:665  0:000      using default sleep image name = \private\var\vm\sleepimage
+31:665  0:000      sleepimage not found -> Not Found
+31:665  0:000      hibernated: no - sign
+31:674  0:008  === [ AddCustomTool ] =====================================
+31:674  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+31:674  0:000   - found entry 0. 'Boot Microsoft EFI Boot from EFI', Volume 'EFI', DevicePath 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,D204CC77-E70C-47F3-B354-1579BF2C6525,0xDFA07EC,0xA6814)\EFI\microsoft\Boot\bootmgfw.efii'
+31:674  0:000  DefaultIndex=0 and MainMenu.EntryCount=9
+31:803  0:129  can't bear mouse at all! Status=Unsupported
+33:785  1:981  exit from MainMenu 8
+33:785  0:000  ReinitSelfLib after theme change
+33:785  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,FA7445BB-D3FC-4113-B04F-F87CA5688EF1,0x800,0xAE800)
+33:785  0:000  === [ ScanVolumes ] =======================================
+33:785  0:000  Found 14 volumes with blockIO
+33:785  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+33:786  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)
+33:787  0:001          Result of bootcode detection: bootable unknown (legacy)
+33:787  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,FA7445BB-D3FC-4113-B04F-F87CA5688EF1,0x800,0xAE800)
+33:788  0:000          Result of bootcode detection: bootable Windows (vista,win)
+33:788  0:000          This is SelfVolume !!
+33:788  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,0CF06149-EBEB-4385-852C-A479523E1E85,0xAF748,0xDEF10A4)
+33:789  0:000          Result of bootcode detection: bootable Windows (vista,win)
+33:789  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,D204CC77-E70C-47F3-B354-1579BF2C6525,0xDFA07EC,0xA6814)
+33:789  0:000          Result of bootcode detection: bootable Windows (vista,win)
+33:789  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,F8A317D6-BD82-44A5-A5B5-347A8D240CE6,0xE047000,0x123000)
+33:790  0:000          Result of bootcode detection: bootable Windows (vista,win)
+33:790  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)
+33:791  0:000          Result of bootcode detection: bootable unknown (legacy)
+33:791  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,46ED8322-F88E-4F77-A5F0-083D5579D908,0x800,0xC800000)
+33:792  0:001          Result of bootcode detection: bootable Windows (vista,win)
+33:792  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,5588E3F4-5175-440D-9424-61046E80D6E7,0xC801000,0x67F05D8F)
+33:794  0:001          Result of bootcode detection: bootable Windows (vista,win)
+33:794  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6FFC6906FF46F048915858B7BBA87799)
+33:794  0:000          hiding this volume
+33:794  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A26FE7E783A709479195E83BDC263D3C)
+33:794  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D9DE99060F9F2C49A37B252B2BB9BE81)
+33:794  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,F67C9B197EB7634EA42C9B69479FA910)
+33:794  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,69D1492D1BBF9D429D1517BE3652D0A8)
+33:794  0:000  found 2 handles with audio
+33:794  0:000  No AudioIoDevice stored
+33:794  0:000  no stored audio parameters
+33:794  0:000  theme inited
+33:794  0:000  Chosen theme blackMojave
+33:794  0:000  after NVRAM boot-args=
+33:794  0:000  === [ ScanLoader ] ========================================
+33:794  0:000  - [02]: 'ESP'
+33:802  0:007  - [04]: 'EFI'
+33:802  0:000          AddLoaderEntry for Volume Name=EFI
+33:810  0:008          AddLoaderEntry for Volume Name=EFI
+33:810  0:000          skipped because entry is hidden
+33:810  0:000  - [09]: 'Preboot', hidden
+33:810  0:000  - [10]: 'Mac OS -pn'
+33:818  0:007  - [11]: 'Recovery'
+33:818  0:000          AddLoaderEntry for Volume Name=Recovery
+33:827  0:009  - [12]: 'VM'
+33:835  0:007  - [13]: 'Mac OS'
+33:836  0:000          AddLoaderEntry for Volume Name=Mac OS
+33:837  0:000      Check if volume Is Hibernated:
+33:837  0:000      Check sleep image 'by signature':
+33:837  0:000      using default sleep image name = \private\var\vm\sleepimage
+33:837  0:000      sleepimage not found -> Not Found
+33:837  0:000      hibernated: no - sign
+33:845  0:008  === [ AddCustomTool ] =====================================
+33:845  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+33:845  0:000   - found entry 0. 'Boot Microsoft EFI Boot from EFI', Volume 'EFI', DevicePath 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,D204CC77-E70C-47F3-B354-1579BF2C6525,0xDFA07EC,0xA6814)\EFI\microsoft\Boot\bootmgfw.efii'
+33:845  0:000  DefaultIndex=0 and MainMenu.EntryCount=7
+33:983  0:137  can't bear mouse at all! Status=Unsupported
+35:088  1:104  exit from MainMenu 8
+35:088  0:000  ReinitSelfLib after theme change
+35:088  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,FA7445BB-D3FC-4113-B04F-F87CA5688EF1,0x800,0xAE800)
+35:088  0:000  === [ ScanVolumes ] =======================================
+35:088  0:000  Found 14 volumes with blockIO
+35:088  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+35:088  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)
+35:090  0:001          Result of bootcode detection: bootable unknown (legacy)
+35:090  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,FA7445BB-D3FC-4113-B04F-F87CA5688EF1,0x800,0xAE800)
+35:091  0:000          Result of bootcode detection: bootable Windows (vista,win)
+35:091  0:000          This is SelfVolume !!
+35:091  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,0CF06149-EBEB-4385-852C-A479523E1E85,0xAF748,0xDEF10A4)
+35:091  0:000          Result of bootcode detection: bootable Windows (vista,win)
+35:091  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,D204CC77-E70C-47F3-B354-1579BF2C6525,0xDFA07EC,0xA6814)
+35:092  0:000          Result of bootcode detection: bootable Windows (vista,win)
+35:092  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,F8A317D6-BD82-44A5-A5B5-347A8D240CE6,0xE047000,0x123000)
+35:093  0:000          Result of bootcode detection: bootable Windows (vista,win)
+35:093  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)
+35:093  0:000          Result of bootcode detection: bootable unknown (legacy)
+35:093  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,46ED8322-F88E-4F77-A5F0-083D5579D908,0x800,0xC800000)
+35:095  0:001          Result of bootcode detection: bootable Windows (vista,win)
+35:095  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,5588E3F4-5175-440D-9424-61046E80D6E7,0xC801000,0x67F05D8F)
+35:097  0:001          Result of bootcode detection: bootable Windows (vista,win)
+35:097  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6FFC6906FF46F048915858B7BBA87799)
+35:097  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A26FE7E783A709479195E83BDC263D3C)
+35:097  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D9DE99060F9F2C49A37B252B2BB9BE81)
+35:097  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,F67C9B197EB7634EA42C9B69479FA910)
+35:097  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,69D1492D1BBF9D429D1517BE3652D0A8)
+35:097  0:000  found 2 handles with audio
+35:097  0:000  No AudioIoDevice stored
+35:097  0:000  no stored audio parameters
+35:097  0:000  theme inited
+35:097  0:000  Chosen theme blackMojave
+35:098  0:000  after NVRAM boot-args=
+35:098  0:000  === [ ScanLoader ] ========================================
+35:098  0:000  - [02]: 'ESP'
+35:105  0:007  - [04]: 'EFI'
+35:105  0:000          AddLoaderEntry for Volume Name=EFI
+35:114  0:009          AddLoaderEntry for Volume Name=EFI
+35:115  0:000  - [09]: 'Preboot'
+35:115  0:000          AddLoaderEntry for Volume Name=Preboot
+35:116  0:000      Check if volume Is Hibernated:
+35:116  0:000      Check sleep image 'by signature':
+35:116  0:000      using default sleep image name = \private\var\vm\sleepimage
+35:116  0:000      sleepimage not found -> Not Found
+35:116  0:000      hibernated: no - sign
+35:125  0:008  - [10]: 'Mac OS -pn'
+35:132  0:007  - [11]: 'Recovery'
+35:133  0:000          AddLoaderEntry for Volume Name=Recovery
+35:142  0:009  - [12]: 'VM'
+35:149  0:007  - [13]: 'Mac OS'
+35:150  0:000          AddLoaderEntry for Volume Name=Mac OS
+35:151  0:000      Check if volume Is Hibernated:
+35:151  0:000      Check sleep image 'by signature':
+35:151  0:000      using default sleep image name = \private\var\vm\sleepimage
+35:151  0:000      sleepimage not found -> Not Found
+35:151  0:000      hibernated: no - sign
+35:159  0:008  === [ AddCustomTool ] =====================================
+35:159  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+35:159  0:000   - found entry 0. 'Boot Microsoft EFI Boot from EFI', Volume 'EFI', DevicePath 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,D204CC77-E70C-47F3-B354-1579BF2C6525,0xDFA07EC,0xA6814)\EFI\microsoft\Boot\bootmgfw.efii'
+35:159  0:000  DefaultIndex=0 and MainMenu.EntryCount=9
+35:299  0:139  can't bear mouse at all! Status=Unsupported
+37:952  2:653  can't bear mouse at sel! Status=Unsupported
+39:327  1:375  can't bear mouse at sel! Status=Unsupported
+41:739  2:411  exit from MainMenu 8
+41:739  0:000  ReinitSelfLib after theme change
+41:739  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,FA7445BB-D3FC-4113-B04F-F87CA5688EF1,0x800,0xAE800)
+41:739  0:000  === [ ScanVolumes ] =======================================
+41:739  0:000  Found 14 volumes with blockIO
+41:739  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+41:740  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)
+41:742  0:001          Result of bootcode detection: bootable unknown (legacy)
+41:742  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,FA7445BB-D3FC-4113-B04F-F87CA5688EF1,0x800,0xAE800)
+41:742  0:000          Result of bootcode detection: bootable Windows (vista,win)
+41:742  0:000          This is SelfVolume !!
+41:742  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,0CF06149-EBEB-4385-852C-A479523E1E85,0xAF748,0xDEF10A4)
+41:743  0:000          Result of bootcode detection: bootable Windows (vista,win)
+41:743  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,D204CC77-E70C-47F3-B354-1579BF2C6525,0xDFA07EC,0xA6814)
+41:744  0:000          Result of bootcode detection: bootable Windows (vista,win)
+41:744  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,F8A317D6-BD82-44A5-A5B5-347A8D240CE6,0xE047000,0x123000)
+41:744  0:000          Result of bootcode detection: bootable Windows (vista,win)
+41:744  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)
+41:745  0:000          Result of bootcode detection: bootable unknown (legacy)
+41:745  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,46ED8322-F88E-4F77-A5F0-083D5579D908,0x800,0xC800000)
+41:746  0:001          Result of bootcode detection: bootable Windows (vista,win)
+41:746  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,5588E3F4-5175-440D-9424-61046E80D6E7,0xC801000,0x67F05D8F)
+41:748  0:001          Result of bootcode detection: bootable Windows (vista,win)
+41:748  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6FFC6906FF46F048915858B7BBA87799)
+41:748  0:000          hiding this volume
+41:748  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A26FE7E783A709479195E83BDC263D3C)
+41:748  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D9DE99060F9F2C49A37B252B2BB9BE81)
+41:748  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,F67C9B197EB7634EA42C9B69479FA910)
+41:748  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,A48D7B39-EA38-4603-9F85-E6499958EA05,0xE16A000,0xDDBA488)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,69D1492D1BBF9D429D1517BE3652D0A8)
+41:749  0:000  found 2 handles with audio
+41:749  0:000  No AudioIoDevice stored
+41:749  0:000  no stored audio parameters
+41:749  0:000  theme inited
+41:749  0:000  Chosen theme blackMojave
+41:749  0:000  after NVRAM boot-args=
+41:749  0:000  === [ ScanLoader ] ========================================
+41:749  0:000  - [02]: 'ESP'
+41:757  0:008  - [04]: 'EFI'
+41:757  0:000          AddLoaderEntry for Volume Name=EFI
+41:766  0:008          AddLoaderEntry for Volume Name=EFI
+41:766  0:000          skipped because entry is hidden
+41:766  0:000  - [09]: 'Preboot', hidden
+41:766  0:000  - [10]: 'Mac OS -pn'
+41:774  0:007  - [11]: 'Recovery'
+41:774  0:000          AddLoaderEntry for Volume Name=Recovery
+41:783  0:009  - [12]: 'VM'
+41:791  0:007  - [13]: 'Mac OS'
+41:792  0:000          AddLoaderEntry for Volume Name=Mac OS
+41:792  0:000      Check if volume Is Hibernated:
+41:792  0:000      Check sleep image 'by signature':
+41:792  0:000      using default sleep image name = \private\var\vm\sleepimage
+41:792  0:000      sleepimage not found -> Not Found
+41:792  0:000      hibernated: no - sign
+41:801  0:008  === [ AddCustomTool ] =====================================
+41:801  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+41:801  0:000   - found entry 0. 'Boot Microsoft EFI Boot from EFI', Volume 'EFI', DevicePath 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,D204CC77-E70C-47F3-B354-1579BF2C6525,0xDFA07EC,0xA6814)\EFI\microsoft\Boot\bootmgfw.efii'
+41:801  0:000  DefaultIndex=0 and MainMenu.EntryCount=7
+41:929  0:127  can't bear mouse at all! Status=Unsupported
+43:052  1:123  Found BIOS RSDP at F0020
+43:052  0:000  Printing ACPI tables from RSDP F0020 ...
+43:052  0:000   F0020: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+43:052  0:000    (Xsdt: 6FFD40B8, Rsdt: 6FFD4028)
+43:052  0:000    6FFD40B8: 'XSDT', 'CBX3', Rev: 1, Len: 244
+43:052  0:000    6FFD4028: 'RSDT', 'CBX3', Rev: 1, Len: 140
+43:052  0:000    Tables in Xsdt: 26
+43:052  0:000    0. 6FFF1CC0: 'FACP', 'CBX3', Rev: 5, Len: 268
+43:052  0:000        (Dsdt: 6FFD4240, Facs: 6FF97F80, XDsdt: 6FFD4240, XFacs: 0)
+43:052  0:000        6FFD4240: 'DSDT', 'CBX3', Rev: 2, Len: 121468
+43:054  0:001        6FF97F80: 'FACS', Ver: 2, Len: 64
+43:054  0:000    1. 6FFF1DD0: 'APIC', 'CBX3', Rev: 3, Len: 132
+43:054  0:000    2. 6FFF1E58: 'FPDT', 'CBX3', Rev: 1, Len: 68
+43:054  0:000    3. 6FFF1EA0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+43:054  0:000    4. 6FFF1F40: 'MCFG', 'CBX3', Rev: 1, Len: 60
+43:054  0:000    5. 6FFF1F80: 'HPET', 'CBX3', Rev: 1, Len: 56
+43:054  0:000    6. 6FFF1FB8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+43:054  0:000    7. 6FFF22D0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+43:054  0:000    8. 6FFF2368: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+43:054  0:000    9. 6FFF25B0: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+43:054  0:000    10. 6FFF5160: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+43:054  0:000    11. 6FFF5DA8: 'DBGP', '', Rev: 1, Len: 52
+43:054  0:000    12. 6FFF5DE0: 'DBG2', '', Rev: 0, Len: 84
+43:054  0:000    13. 6FFF5E38: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1856
+43:054  0:000    14. 6FFF6578: 'BOOT', 'CBX3', Rev: 1, Len: 40
+43:054  0:000    15. 6FFF65A0: 'SSDT', 'SaSsdt', Rev: 2, Len: 13617
+43:054  0:000    16. 6FFF9AD8: 'UEFI', '', Rev: 1, Len: 66
+43:054  0:000    17. 6FFF9B20: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+43:054  0:000    18. 6FFFA978: 'MSDM', 'CBX3', Rev: 3, Len: 85
+43:054  0:000    19. 6FFFA9D0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+43:054  0:000    20. 6FFFAB48: 'BGRT', '', Rev: 0, Len: 56
+43:054  0:000    21. 6FFFAB80: 'SSDT', 'SgPch', Rev: 2, Len: 1319
+43:054  0:000    22. 6FFFB0A8: 'DMAR', 'SKL', Rev: 1, Len: 240
+43:054  0:000    23. 6FFFB198: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+43:054  0:000    24. 6FFFB1D0: 'SSDT', 'AmdTabl', Rev: 1, Len: 3528
+43:054  0:000    25. 6FFFBF98: 'ASF!', ' HCG', Rev: 32, Len: 165
+43:054  0:000    Tables in Rsdt: 26
+43:054  0:000    0. 6FFD41B8: 'FACP', 'CBX3', Rev: 2, Len: 132
+43:054  0:000        (Dsdt: 6FFD4240, Facs: 6FF97F40)
+43:054  0:000        6FFD4240: 'DSDT', 'CBX3', Rev: 2, Len: 121468
+43:056  0:002        6FF97F40: 'FACS', Ver: 0, Len: 64
+43:056  0:000    1. 6FFF1DD0: 'APIC', 'CBX3', Rev: 3, Len: 132
+43:056  0:000    2. 6FFF1E58: 'FPDT', 'CBX3', Rev: 1, Len: 68
+43:056  0:000    3. 6FFF1EA0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+43:056  0:000    4. 6FFF1F40: 'MCFG', 'CBX3', Rev: 1, Len: 60
+43:056  0:000    5. 6FFF1F80: 'HPET', 'CBX3', Rev: 1, Len: 56
+43:056  0:000    6. 6FFF1FB8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+43:056  0:000    7. 6FFF22D0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+43:056  0:000    8. 6FFF2368: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+43:056  0:000    9. 6FFF25B0: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+43:056  0:000    10. 6FFF5160: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+43:056  0:000    11. 6FFF5DA8: 'DBGP', '', Rev: 1, Len: 52
+43:056  0:000    12. 6FFF5DE0: 'DBG2', '', Rev: 0, Len: 84
+43:056  0:000    13. 6FFF5E38: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1856
+43:056  0:000    14. 6FFF6578: 'BOOT', 'CBX3', Rev: 1, Len: 40
+43:056  0:000    15. 6FFF65A0: 'SSDT', 'SaSsdt', Rev: 2, Len: 13617
+43:056  0:000    16. 6FFF9AD8: 'UEFI', '', Rev: 1, Len: 66
+43:056  0:000    17. 6FFF9B20: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+43:056  0:000    18. 6FFFA978: 'MSDM', 'CBX3', Rev: 3, Len: 85
+43:056  0:000    19. 6FFFA9D0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+43:056  0:000    20. 6FFFAB48: 'BGRT', '', Rev: 0, Len: 56
+43:056  0:000    21. 6FFFAB80: 'SSDT', 'SgPch', Rev: 2, Len: 1319
+43:056  0:000    22. 6FFFB0A8: 'DMAR', 'SKL', Rev: 1, Len: 240
+43:056  0:000    23. 6FFFB198: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+43:056  0:000    24. 6FFFB1D0: 'SSDT', 'AmdTabl', Rev: 1, Len: 3528
+43:056  0:000    25. 6FFFBF98: 'ASF!', ' HCG', Rev: 32, Len: 165
+43:056  0:000  Found UEFI Acpi 2.0 RSDP at 6FFD4000
+43:056  0:000  Saving ACPI tables from RSDP 6FFD4000 to EFI\CLOVER\ACPI\origin ...
+43:056  0:000   6FFD4000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+43:073  0:016    (Xsdt: 6FFD40B8, Rsdt: 6FFD4028)
+43:073  0:000    6FFD40B8: 'XSDT', 'CBX3', Rev: 1, Len: 244 -> XSDT.aml
+43:085  0:011    6FFD4028: 'RSDT', 'CBX3', Rev: 1, Len: 140 -> RSDT.aml
+43:096  0:011    Tables in Xsdt: 26
+43:096  0:000    0. 6FFF1CC0: 'FACP', 'CBX3', Rev: 5, Len: 268 -> FACP.aml
+43:107  0:011        (Dsdt: 6FFD4240, Facs: 6FF97F80, XDsdt: 6FFD4240, XFacs: 0)
+43:107  0:000        6FFD4240: 'DSDT', 'CBX3', Rev: 2, Len: 121468 -> DSDT.aml
+43:124  0:016        6FF97F80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+43:136  0:012    1. 6FFF1DD0: 'APIC', 'CBX3', Rev: 3, Len: 132 -> APIC.aml
+43:147  0:010    2. 6FFF1E58: 'FPDT', 'CBX3', Rev: 1, Len: 68 -> FPDT.aml
+43:157  0:010    3. 6FFF1EA0: 'FIDT', 'CBX3', Rev: 1, Len: 156 -> FIDT.aml
+43:168  0:010    4. 6FFF1F40: 'MCFG', 'CBX3', Rev: 1, Len: 60 -> MCFG.aml
+43:178  0:009    5. 6FFF1F80: 'HPET', 'CBX3', Rev: 1, Len: 56 -> HPET.aml
+43:188  0:010    6. 6FFF1FB8: 'SSDT', 'SataTabl', Rev: 1, Len: 789 -> SSDT-0-SataTabl.aml
+43:199  0:011    7. 6FFF22D0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148 -> LPIT.aml
+43:209  0:010    8. 6FFF2368: 'SSDT', 'sensrhub', Rev: 2, Len: 584 -> SSDT-1-sensrhub.aml
+43:219  0:010    9. 6FFF25B0: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182 -> SSDT-2-PtidDevc.aml
+43:230  0:010    10. 6FFF5160: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141 -> SSDT-3-Ther_Rvp.aml
+43:240  0:010    11. 6FFF5DA8: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+43:260  0:019    12. 6FFF5DE0: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
+43:271  0:011    13. 6FFF5E38: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1856 -> SSDT-4-xh_rvp07.aml
+43:281  0:010    14. 6FFF6578: 'BOOT', 'CBX3', Rev: 1, Len: 40 -> BOOT.aml
+43:291  0:010    15. 6FFF65A0: 'SSDT', 'SaSsdt', Rev: 2, Len: 13617 -> SSDT-5-SaSsdt.aml
+43:302  0:010    16. 6FFF9AD8: 'UEFI', '', Rev: 1, Len: 66 -> UEFI.aml
+43:313  0:011    17. 6FFF9B20: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672 -> SSDT-6-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+43:323  0:010        * 6F537698: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1566  53 53 44 54 1E 06 00 00 02 B7 50 6D 52 65 66 00 Internal length = 1566 -> SSDT-x6_0-Cpu0Ist.aml
+43:334  0:010        * 6F536618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 CE 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x6_1-ApIst.aml
+43:344  0:010        * 6F536C18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 65 50 6D 52 65 66 00 Internal length = 895 -> SSDT-x6_2-Cpu0Cst.aml
+43:354  0:009        * 6F587C18: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EA 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x6_3-ApCst.aml
+43:364  0:010        * 6D734B18: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 2B 50 6D 52 65 66 00 Internal length = 142 -> SSDT-x6_4-Cpu0Hwp.aml
+43:375  0:011        * 6D8B7318: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 FD 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x6_5-ApHwp.aml
+43:385  0:010        * 6D8B7198: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 85 50 6D 52 65 66 00 Internal length = 304 -> SSDT-x6_6-HwpLvt.aml
+43:396  0:010  
+43:396  0:000    18. 6FFFA978: 'MSDM', 'CBX3', Rev: 3, Len: 85 -> MSDM.aml
+43:406  0:010    19. 6FFFA9D0: 'SLIC', 'CBX3', Rev: 3, Len: 374 -> SLIC.aml
+43:417  0:011    20. 6FFFAB48: 'BGRT', '', Rev: 0, Len: 56 -> BGRT.aml
+43:429  0:011    21. 6FFFAB80: 'SSDT', 'SgPch', Rev: 2, Len: 1319 -> SSDT-7-SgPch.aml
+43:440  0:010    22. 6FFFB0A8: 'DMAR', 'SKL', Rev: 1, Len: 240 -> DMAR.aml
+43:451  0:011    23. 6FFFB198: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52 -> TPM2.aml
+43:462  0:011    24. 6FFFB1D0: 'SSDT', 'AmdTabl', Rev: 1, Len: 3528 -> SSDT-8-AmdTabl.aml
+43:473  0:010    25. 6FFFBF98: 'ASF!', ' HCG', Rev: 32, Len: 165 -> ASF!.aml
+43:483  0:010    Tables in Rsdt: 26
+43:483  0:000    0. 6FFD41B8: 'FACP', 'CBX3', Rev: 2, Len: 132 -> RSDT-FACP.aml
+43:493  0:010        (Dsdt: 6FFD4240, Facs: 6FF97F40)
+43:493  0:000        6FFD4240: 'DSDT', 'CBX3', Rev: 2, Len: 121468
+43:495  0:001        6FF97F40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+43:507  0:011    1. 6FFF1DD0: 'APIC', 'CBX3', Rev: 3, Len: 132
+43:507  0:000    2. 6FFF1E58: 'FPDT', 'CBX3', Rev: 1, Len: 68
+43:507  0:000    3. 6FFF1EA0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+43:507  0:000    4. 6FFF1F40: 'MCFG', 'CBX3', Rev: 1, Len: 60
+43:507  0:000    5. 6FFF1F80: 'HPET', 'CBX3', Rev: 1, Len: 56
+43:507  0:000    6. 6FFF1FB8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+43:507  0:000    7. 6FFF22D0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+43:507  0:000    8. 6FFF2368: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+43:507  0:000    9. 6FFF25B0: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+43:507  0:000    10. 6FFF5160: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+43:507  0:000    11. 6FFF5DA8: 'DBGP', '', Rev: 1, Len: 52
+43:507  0:000    12. 6FFF5DE0: 'DBG2', '', Rev: 0, Len: 84
+43:507  0:000    13. 6FFF5E38: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1856
+43:507  0:000    14. 6FFF6578: 'BOOT', 'CBX3', Rev: 1, Len: 40
+43:507  0:000    15. 6FFF65A0: 'SSDT', 'SaSsdt', Rev: 2, Len: 13617
+43:507  0:000    16. 6FFF9AD8: 'UEFI', '', Rev: 1, Len: 66
+43:507  0:000    17. 6FFF9B20: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+43:507  0:000    18. 6FFFA978: 'MSDM', 'CBX3', Rev: 3, Len: 85
+43:507  0:000    19. 6FFFA9D0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+43:507  0:000    20. 6FFFAB48: 'BGRT', '', Rev: 0, Len: 56
+43:507  0:000    21. 6FFFAB80: 'SSDT', 'SgPch', Rev: 2, Len: 1319
+43:507  0:000    22. 6FFFB0A8: 'DMAR', 'SKL', Rev: 1, Len: 240
+43:507  0:000    23. 6FFFB198: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+43:507  0:000    24. 6FFFB1D0: 'SSDT', 'AmdTabl', Rev: 1, Len: 3528
+43:507  0:000    25. 6FFFBF98: 'ASF!', ' HCG', Rev: 32, Len: 165
+43:507  0:000  Found UEFI Acpi 1.0 RSDP at 6FFD4000
+43:507  0:000  Printing ACPI tables from RSDP 6FFD4000 ...
+43:507  0:000   6FFD4000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+43:507  0:000    (Xsdt: 6FFD40B8, Rsdt: 6FFD4028)
+43:507  0:000    6FFD40B8: 'XSDT', 'CBX3', Rev: 1, Len: 244
+43:507  0:000    6FFD4028: 'RSDT', 'CBX3', Rev: 1, Len: 140
+43:507  0:000    Tables in Xsdt: 26
+43:507  0:000    0. 6FFF1CC0: 'FACP', 'CBX3', Rev: 5, Len: 268
+43:507  0:000        (Dsdt: 6FFD4240, Facs: 6FF97F80, XDsdt: 6FFD4240, XFacs: 0)
+43:507  0:000        6FFD4240: 'DSDT', 'CBX3', Rev: 2, Len: 121468
+43:509  0:002        6FF97F80: 'FACS', Ver: 2, Len: 64
+43:509  0:000    1. 6FFF1DD0: 'APIC', 'CBX3', Rev: 3, Len: 132
+43:509  0:000    2. 6FFF1E58: 'FPDT', 'CBX3', Rev: 1, Len: 68
+43:509  0:000    3. 6FFF1EA0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+43:509  0:000    4. 6FFF1F40: 'MCFG', 'CBX3', Rev: 1, Len: 60
+43:509  0:000    5. 6FFF1F80: 'HPET', 'CBX3', Rev: 1, Len: 56
+43:509  0:000    6. 6FFF1FB8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+43:509  0:000    7. 6FFF22D0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+43:509  0:000    8. 6FFF2368: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+43:509  0:000    9. 6FFF25B0: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+43:509  0:000    10. 6FFF5160: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+43:509  0:000    11. 6FFF5DA8: 'DBGP', '', Rev: 1, Len: 52
+43:509  0:000    12. 6FFF5DE0: 'DBG2', '', Rev: 0, Len: 84
+43:509  0:000    13. 6FFF5E38: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1856
+43:509  0:000    14. 6FFF6578: 'BOOT', 'CBX3', Rev: 1, Len: 40
+43:509  0:000    15. 6FFF65A0: 'SSDT', 'SaSsdt', Rev: 2, Len: 13617
+43:509  0:000    16. 6FFF9AD8: 'UEFI', '', Rev: 1, Len: 66
+43:509  0:000    17. 6FFF9B20: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+43:509  0:000    18. 6FFFA978: 'MSDM', 'CBX3', Rev: 3, Len: 85
+43:509  0:000    19. 6FFFA9D0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+43:509  0:000    20. 6FFFAB48: 'BGRT', '', Rev: 0, Len: 56
+43:509  0:000    21. 6FFFAB80: 'SSDT', 'SgPch', Rev: 2, Len: 1319
+43:509  0:000    22. 6FFFB0A8: 'DMAR', 'SKL', Rev: 1, Len: 240
+43:509  0:000    23. 6FFFB198: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+43:509  0:000    24. 6FFFB1D0: 'SSDT', 'AmdTabl', Rev: 1, Len: 3528
+43:509  0:000    25. 6FFFBF98: 'ASF!', ' HCG', Rev: 32, Len: 165
+43:509  0:000    Tables in Rsdt: 26
+43:509  0:000    0. 6FFD41B8: 'FACP', 'CBX3', Rev: 2, Len: 132
+43:509  0:000        (Dsdt: 6FFD4240, Facs: 6FF97F40)
+43:509  0:000        6FFD4240: 'DSDT', 'CBX3', Rev: 2, Len: 121468
+43:511  0:002        6FF97F40: 'FACS', Ver: 0, Len: 64
+43:511  0:000    1. 6FFF1DD0: 'APIC', 'CBX3', Rev: 3, Len: 132
+43:511  0:000    2. 6FFF1E58: 'FPDT', 'CBX3', Rev: 1, Len: 68
+43:511  0:000    3. 6FFF1EA0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+43:511  0:000    4. 6FFF1F40: 'MCFG', 'CBX3', Rev: 1, Len: 60
+43:511  0:000    5. 6FFF1F80: 'HPET', 'CBX3', Rev: 1, Len: 56
+43:511  0:000    6. 6FFF1FB8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+43:511  0:000    7. 6FFF22D0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+43:511  0:000    8. 6FFF2368: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+43:511  0:000    9. 6FFF25B0: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+43:511  0:000    10. 6FFF5160: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+43:511  0:000    11. 6FFF5DA8: 'DBGP', '', Rev: 1, Len: 52
+43:511  0:000    12. 6FFF5DE0: 'DBG2', '', Rev: 0, Len: 84
+43:511  0:000    13. 6FFF5E38: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1856
+43:511  0:000    14. 6FFF6578: 'BOOT', 'CBX3', Rev: 1, Len: 40
+43:511  0:000    15. 6FFF65A0: 'SSDT', 'SaSsdt', Rev: 2, Len: 13617
+43:511  0:000    16. 6FFF9AD8: 'UEFI', '', Rev: 1, Len: 66
+43:511  0:000    17. 6FFF9B20: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+43:511  0:000    18. 6FFFA978: 'MSDM', 'CBX3', Rev: 3, Len: 85
+43:511  0:000    19. 6FFFA9D0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+43:511  0:000    20. 6FFFAB48: 'BGRT', '', Rev: 0, Len: 56
+43:511  0:000    21. 6FFFAB80: 'SSDT', 'SgPch', Rev: 2, Len: 1319
+43:511  0:000    22. 6FFFB0A8: 'DMAR', 'SKL', Rev: 1, Len: 240
+43:511  0:000    23. 6FFFB198: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+43:511  0:000    24. 6FFFB1D0: 'SSDT', 'AmdTabl', Rev: 1, Len: 3528
+43:511  0:000    25. 6FFFBF98: 'ASF!', ' HCG', Rev: 32, Len: 165
+46:173  2:661  === [ FixBiosDsdt ] =======================================
+46:173  0:000  Patching DSDT:
+46:173  0:000   - [change BRT6 to BRTX]: pattern 20425254, patched at: [ (1BF88) ]
+46:173  0:000   - [change _DSM to XDSM (NVDIMM)]: pattern 5F44534D, patched at: [ (2C99) (416) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (1A1F) (97) (52) (C8D) (104) (5ED) (263) (11) (51) (22) (21) (15) (14) (1E) (142F) (EE) (EE) (EE) (EE) (EE) (D9) (D9) (12A) (12A) (12A) (229) (48A) (107D) (14A) (B8) (2F) (4C) (159E) (4D9) (4BC) (4BC) (4BC) (4D5) (4BC) (4BC) (4BC) (4D5) (4BC) (4BC) (4BC) (4BC) (4BC) (4BC) (4BC) (4BC) (4BC) (4BC) (4BC) (259C) (2FCE) ]
+46:173  0:000   - [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, patched at: [ (1B76A) (19C) (E2) (F) (6AA) (E94) ]
+46:174  0:000   - [change _OSI to XOSI (OS)]: pattern 5F4F5349, patched at: [ (79D7) (7114) (3) (11) (18) (1C) (1C) (1A) (18) (18) (18) (18) (CD31) (3) (D) (D) (D) (13) (14) ]
+46:174  0:000   - [_STA  to XSTA in RTC]: - [ACPI0008:_STA to XSTA]: disabled
+46:174  0:000   - [EV5 renamed XEV5]: pattern 4556355F, patched at: [ (1D89D) ]
+46:175  0:000   - [LID0 renamed LID]: pattern 4C494430, patched at: [ (1BAF5) (4C3) (B) (71) (D) (13) (1E) (106D) (A6) ]
+46:175  0:000   - [_PTS to ZPTS(1,N)]: pattern 5F505453, patched at: [ (7645) ]
+46:175  0:000   - [_WAK to ZWAK(1,N)]: pattern 5F57414B, patched at: [ (767D) ]
+46:175  0:000   - [_LID to XLID]: pattern 5F4C4944, patched at: [ (1D10B) ]
+46:175  0:000   - [change GFX0 to IGPU]: pattern 47465830, patched at: [ (2C82) (B39F) (1B) (C00) (A) (6AFD) (1666) (318B) (14) (1B0F) (1E2E) (18) (18) (32) (11) (65) (32) (44) ]
+46:175  0:000   - [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+46:176  0:000   - [change HDAS to HDEF]: pattern 48444153, patched at: [ (8CAE) (160E) (86) (D) (A1) (6A) ]
+46:176  0:000   - [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+46:176  0:000   - [change EHC1 to EH01]: pattern 45484331, bin not found / already patched!
+46:176  0:000   - [change H_EC to EC]: pattern 485F4543, patched at: [ (E6E5) ]
+46:176  0:000   - [change ECDV to EC]: pattern 45434456, patched at: [ (1C1EA) (6C3) (3E) (1C) (1B) (DC0) (122) (210) ]
+46:176  0:000   - [change LPC to LPCB]: pattern 4C50435F, patched at: [ (8D95) (9) ]
+46:177  0:000    0 replacements
+46:177  0:000  Start HPET Fix
+46:202  0:024  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-11.aml
+54:059  7:856  open 0 audio handle status=Success
+54:059  0:000  got embedded sound
+54:059  0:000    Channels: 2  Sample rate: 8000 Hz  Bits: 16
+54:059  0:000  output to channel 0 with volume 70, len=25600
+54:059  0:000   sound channels=2 bits=16 freq=8000
+54:059  0:000  sound converted to 48kHz
+55:414  1:355  sound play end with status=Success
+55:540  0:125  open 0 audio handle status=Success
+55:540  0:000  got embedded sound
+55:540  0:000    Channels: 2  Sample rate: 8000 Hz  Bits: 16
+55:540  0:000  output to channel 0 with volume 70, len=25600
+55:540  0:000   sound channels=2 bits=16 freq=8000
+55:540  0:000  sound converted to 48kHz
+56:695  1:155  sound play end with status=Success
+57:473  0:777  open 0 audio handle status=Success
+57:473  0:000  got embedded sound
+57:473  0:000    Channels: 2  Sample rate: 8000 Hz  Bits: 16
+57:473  0:000  output to channel 0 with volume 70, len=25600
+57:473  0:000   sound channels=2 bits=16 freq=8000
+57:473  0:000  sound converted to 48kHz
+58:728  1:255  sound play end with status=Success
+HdaCodecDump Start
+Codec: Realtek ALC255
+Address: 0
+AFG Function Id: 0x1 (unsol 1)
+Vendor ID: 0x10EC0255
+Revision ID: 0x00100002
+Default PCM:
+    rates [0x0560]: 44100 48000 96000 192000
+    bits [0x000E]: 16 20 24
+    formats [0x00000001]: PCM
+Default Amp-In caps: N/A
+Default Amp-Out caps: N/A
+Node 0x02 [Audio Output] wcaps 0x0000041D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x57, nsteps=0x57, stepsize=02, mute=0
+  Amp-Out vals: [0x57 0x57]
+Node 0x03 [Audio Output] wcaps 0x0000041D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x57, nsteps=0x57, stepsize=02, mute=0
+  Amp-Out vals: [0x57 0x57]
+Node 0x04 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x05 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x06 [Audio Output] wcaps 0x00000611: Stereo Digital
+Node 0x07 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x08 [Audio Input] wcaps 0x0010051B: Stereo Amp-In
+  Amp-In caps: ofs=0x17, nsteps=0x3F, stepsize=02, mute=1
+  Amp-In vals: [0x97 0x97]
+  Connection: 1
+     0x23
+Node 0x09 [Audio Input] wcaps 0x0010051B: Stereo Amp-In
+  Amp-In caps: ofs=0x17, nsteps=0x3F, stepsize=02, mute=1
+  Amp-In vals: [0x97 0x97]
+  Connection: 1
+     0x22
+Node 0x0A [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x0B [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x17, nsteps=0x1F, stepsize=05, mute=1
+  Amp-In vals: [0x97 0x97] [0x97 0x97] [0x97 0x97] [0x97 0x97] [0x97 0x97]
+  Connection: 5
+     0x18 0x19 0x1A 0x1B 0x1D
+Node 0x0C [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x00 0x00] [0x80 0x80]
+  Connection: 2
+     0x02 0x0B
+Node 0x0D [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x00 0x00] [0x80 0x80]
+  Connection: 2
+     0x03 0x0B
+Node 0x0E [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x0F [Audio Mixer] wcaps 0x0020010A: Mono Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x00]
+  Connection: 1
+     0x0D
+Node 0x10 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x11 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x12 [Pin Complex] wcaps 0x0040040B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=27, mute=0
+  Amp-In vals:
+  Pincap 0x00000020: IN
+  Pin Default 0x90A60170: [Fixed] Mic at Int N/A
+    Conn = Digital, Color = Unknown
+    DefAssociation = 0x7, Sequence = 0x0
+  Pin-ctls: 0x00:
+Node 0x13 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x14 [Pin Complex] wcaps 0x0040058D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x00 0x00]
+  Pincap 0x00010014: OUT EAPD Detect
+  EAPD 0x2: EAPD
+  Pin Default 0x90170130: [Fixed] Speaker at Int N/A
+    Conn = Analog, Color = Unknown
+    DefAssociation = 0x3, Sequence = 0x0
+  Pin-ctls: 0x40: OUT
+  Connection: 1
+     0x0C
+Node 0x15 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x16 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x17 [Pin Complex] wcaps 0x0040050C: Mono Amp-Out
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x80]
+  Pincap 0x00000010: OUT
+  Pin Default 0x40000000: [None] Line Out at Ext N/A
+    Conn = Unknown, Color = Unknown
+    DefAssociation = 0x0, Sequence = 0x0
+  Pin-ctls: 0x00:
+  Connection: 1
+     0x0F
+Node 0x18 [Pin Complex] wcaps 0x0040048B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=27, mute=0
+  Amp-In vals:
+  Pincap 0x00003724: IN Detect
+  Pin Default 0x411111F0: [None] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+Node 0x19 [Pin Complex] wcaps 0x0040048B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=27, mute=0
+  Amp-In vals:
+  Pincap 0x00003724: IN Detect
+  Pin Default 0x411111F0: [None] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+Node 0x1A [Pin Complex] wcaps 0x0040048B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=27, mute=0
+  Amp-In vals:
+  Pincap 0x00003724: IN Detect
+  Pin Default 0x411111F0: [None] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x00:
+Node 0x1B [Pin Complex] wcaps 0x0040058F: Stereo Amp-In Amp-Out
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=27, mute=0
+  Amp-In vals: [0x00 0x00] [0x00 0x00]
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x80 0x80]
+  Pincap 0x0001373C: IN OUT HP EAPD Detect
+  EAPD 0x2: EAPD
+  Pin Default 0x411111F0: [None] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+  Connection: 2
+     0x0C 0x0D
+Node 0x1C [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x1D [Pin Complex] wcaps 0x00400400: Mono
+  Pincap 0x00000020: IN
+  Pin Default 0x40700001: [None] Modem Handset at Ext N/A
+    Conn = Unknown, Color = Unknown
+    DefAssociation = 0x0, Sequence = 0x1
+  Pin-ctls: 0x20: IN
+Node 0x1E [Pin Complex] wcaps 0x00400781: Stereo Digital
+  Pincap 0x00000014: OUT Detect
+  Pin Default 0x411111F0: [None] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x40: OUT
+  Connection: 1
+     0x06
+Node 0x1F [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x20 [Vendor Defined Widget] wcaps 0x00F00040: Mono
+Node 0x21 [Pin Complex] wcaps 0x0040058D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x80 0x80]
+  Pincap 0x0001001C: OUT HP EAPD Detect
+  EAPD 0x2: EAPD
+  Pin Default 0x02211040: [Jack] HP Out at Ext Front
+    Conn = 1/8, Color = Black
+    DefAssociation = 0x4, Sequence = 0x0
+  Pin-ctls: 0x00:
+  Connection: 2
+     0x0C 0x0D
+Node 0x22 [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80]
+  Connection: 6
+     0x18 0x19 0x1A 0x1B 0x1D 0x0B
+Node 0x23 [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80]
+  Connection: 7
+     0x18 0x19 0x1A 0x1B 0x1D 0x0B 0x12
+HdaCodecDump Start
+Codec: Realtek ALC255
+Address: 0
+AFG Function Id: 0x1 (unsol 1)
+Vendor ID: 0x10EC0255
+Revision ID: 0x00100002
+Default PCM:
+    rates [0x0560]: 44100 48000 96000 192000
+    bits [0x000E]: 16 20 24
+    formats [0x00000001]: PCM
+Default Amp-In caps: N/A
+Default Amp-Out caps: N/A
+Node 0x02 [Audio Output] wcaps 0x0000041D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x57, nsteps=0x57, stepsize=02, mute=0
+  Amp-Out vals: [0x57 0x57]
+Node 0x03 [Audio Output] wcaps 0x0000041D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x57, nsteps=0x57, stepsize=02, mute=0
+  Amp-Out vals: [0x57 0x57]
+Node 0x04 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x05 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x06 [Audio Output] wcaps 0x00000611: Stereo Digital
+Node 0x07 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x08 [Audio Input] wcaps 0x0010051B: Stereo Amp-In
+  Amp-In caps: ofs=0x17, nsteps=0x3F, stepsize=02, mute=1
+  Amp-In vals: [0x97 0x97]
+  Connection: 1
+     0x23
+Node 0x09 [Audio Input] wcaps 0x0010051B: Stereo Amp-In
+  Amp-In caps: ofs=0x17, nsteps=0x3F, stepsize=02, mute=1
+  Amp-In vals: [0x97 0x97]
+  Connection: 1
+     0x22
+Node 0x0A [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x0B [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x17, nsteps=0x1F, stepsize=05, mute=1
+  Amp-In vals: [0x97 0x97] [0x97 0x97] [0x97 0x97] [0x97 0x97] [0x97 0x97]
+  Connection: 5
+     0x18 0x19 0x1A 0x1B 0x1D
+Node 0x0C [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x00 0x00] [0x80 0x80]
+  Connection: 2
+     0x02 0x0B
+Node 0x0D [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x00 0x00] [0x80 0x80]
+  Connection: 2
+     0x03 0x0B
+Node 0x0E [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x0F [Audio Mixer] wcaps 0x0020010A: Mono Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x00]
+  Connection: 1
+     0x0D
+Node 0x10 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x11 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x12 [Pin Complex] wcaps 0x0040040B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=27, mute=0
+  Amp-In vals:
+  Pincap 0x00000020: IN
+  Pin Default 0x90A60170: [Fixed] Mic at Int N/A
+    Conn = Digital, Color = Unknown
+    DefAssociation = 0x7, Sequence = 0x0
+  Pin-ctls: 0x00:
+Node 0x13 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x14 [Pin Complex] wcaps 0x0040058D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x00 0x00]
+  Pincap 0x00010014: OUT EAPD Detect
+  EAPD 0x2: EAPD
+  Pin Default 0x90170130: [Fixed] Speaker at Int N/A
+    Conn = Analog, Color = Unknown
+    DefAssociation = 0x3, Sequence = 0x0
+  Pin-ctls: 0x40: OUT
+  Connection: 1
+     0x0C
+Node 0x15 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x16 [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x17 [Pin Complex] wcaps 0x0040050C: Mono Amp-Out
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x80]
+  Pincap 0x00000010: OUT
+  Pin Default 0x40000000: [None] Line Out at Ext N/A
+    Conn = Unknown, Color = Unknown
+    DefAssociation = 0x0, Sequence = 0x0
+  Pin-ctls: 0x00:
+  Connection: 1
+     0x0F
+Node 0x18 [Pin Complex] wcaps 0x0040048B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=27, mute=0
+  Amp-In vals:
+  Pincap 0x00003724: IN Detect
+  Pin Default 0x411111F0: [None] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+Node 0x19 [Pin Complex] wcaps 0x0040048B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=27, mute=0
+  Amp-In vals:
+  Pincap 0x00003724: IN Detect
+  Pin Default 0x411111F0: [None] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+Node 0x1A [Pin Complex] wcaps 0x0040048B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=27, mute=0
+  Amp-In vals:
+  Pincap 0x00003724: IN Detect
+  Pin Default 0x411111F0: [None] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x00:
+Node 0x1B [Pin Complex] wcaps 0x0040058F: Stereo Amp-In Amp-Out
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=27, mute=0
+  Amp-In vals: [0x00 0x00] [0x00 0x00]
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x80 0x80]
+  Pincap 0x0001373C: IN OUT HP EAPD Detect
+  EAPD 0x2: EAPD
+  Pin Default 0x411111F0: [None] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x20: IN
+  Connection: 2
+     0x0C 0x0D
+Node 0x1C [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x1D [Pin Complex] wcaps 0x00400400: Mono
+  Pincap 0x00000020: IN
+  Pin Default 0x40700001: [None] Modem Handset at Ext N/A
+    Conn = Unknown, Color = Unknown
+    DefAssociation = 0x0, Sequence = 0x1
+  Pin-ctls: 0x20: IN
+Node 0x1E [Pin Complex] wcaps 0x00400781: Stereo Digital
+  Pincap 0x00000014: OUT Detect
+  Pin Default 0x411111F0: [None] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xF, Sequence = 0x0
+  Pin-ctls: 0x40: OUT
+  Connection: 1
+     0x06
+Node 0x1F [Vendor Defined Widget] wcaps 0x00F00000: Mono
+Node 0x20 [Vendor Defined Widget] wcaps 0x00F00040: Mono
+Node 0x21 [Pin Complex] wcaps 0x0040058D: Stereo Amp-Out
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x80 0x80]
+  Pincap 0x0001001C: OUT HP EAPD Detect
+  EAPD 0x2: EAPD
+  Pin Default 0x02211040: [Jack] HP Out at Ext Front
+    Conn = 1/8, Color = Black
+    DefAssociation = 0x4, Sequence = 0x0
+  Pin-ctls: 0x00:
+  Connection: 2
+     0x0C 0x0D
+Node 0x22 [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80]
+  Connection: 6
+     0x18 0x19 0x1A 0x1B 0x1D 0x0B
+Node 0x23 [Audio Mixer] wcaps 0x0020010B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-In vals: [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80]
+  Connection: 7
+     0x18 0x19 0x1A 0x1B 0x1D 0x0B 0x12
+HdaCodecDump Start
+Codec: Intel Skylake HDMI
+Address: 2
+AFG Function Id: 0x1 (unsol 0)
+Vendor ID: 0x80862809
+Revision ID: 0x00100000
+Default PCM: N/A
+Default Amp-In caps: N/A
+Default Amp-Out caps: N/A
+Node 0x02 [Audio Output] wcaps 0x00006611: Stereo Digital
+Node 0x03 [Pin Complex] wcaps 0x0040778D: Stereo Digital Amp-Out
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=00, mute=1
+  Amp-Out vals: [0x00 0x00]
+  Pincap 0x09000094: OUT Detect HBR HDMI DP
+  Pin Default 0x18560010: [Jack] Digital Out at Int Special
+    Conn = Digital, Color = Unknown
+    DefAssociation = 0x1, Sequence = 0x0
+  Pin-ctls: 0x00:
+  Connection: 1
+     0x02
+59:318  0:590  QueryMode 1 Status=Success
+59:331  0:012  Video mode change to mode #1: Success
+59:331  0:000  === [ InitTheme ] =========================================
+59:331  0:000  use daylight theme
+59:332  0:001  Using theme 'blackMojave' (EFI\CLOVER\themes\blackMojave)
+59:332  0:000  OS main and drive as badge
+59:334  0:001    Channels: 2  Sample rate: 44100 Hz  Bits: 16
+59:334  0:000  output to channel 0 with volume 70, len=414164
+59:334  0:000   sound channels=2 bits=16 freq=44100
+62:192  2:857  free sound
+62:192  0:000  sound play end with status=Success
+62:193  0:001  Loading font from ThemeDir: Success
+62:194  0:000  QueryMode 2 Status=Success
+62:214  0:020  Video mode change to mode #2: Success
+62:214  0:000  === [ InitTheme ] =========================================
+62:214  0:000  use daylight theme
+62:215  0:001  Using theme 'blackMojave' (EFI\CLOVER\themes\blackMojave)
+62:215  0:000  OS main and drive as badge
+62:217  0:001    Channels: 2  Sample rate: 44100 Hz  Bits: 16
+62:217  0:000  output to channel 0 with volume 70, len=414164
+62:217  0:000   sound channels=2 bits=16 freq=44100
+64:967  2:750  free sound
+64:967  0:000  sound play end with status=Success
+64:968  0:001  Loading font from ThemeDir: Success
+65:476  0:507  open 0 audio handle status=Success
+65:476  0:000  got embedded sound
+65:476  0:000    Channels: 2  Sample rate: 8000 Hz  Bits: 16
+65:476  0:000  output to channel 0 with volume 70, len=25600
+65:476  0:000   sound channels=2 bits=16 freq=8000
+65:476  0:000  sound converted to 48kHz
+66:732  1:255  sound play end with status=Success
+67:010  0:278  exit from MainMenu 7
+68:333  1:323  can't bear mouse at all! Status=Unsupported
+70:133  1:799  QueryMode 3 Status=Success
+70:163  0:030  Video mode change to mode #3: Success
+70:163  0:000  === [ InitTheme ] =========================================
+70:163  0:000  use daylight theme
+70:164  0:001  Using theme 'blackMojave' (EFI\CLOVER\themes\blackMojave)
+70:164  0:000  OS main and drive as badge
+70:166  0:001    Channels: 2  Sample rate: 44100 Hz  Bits: 16
+70:166  0:000  output to channel 0 with volume 70, len=414164
+70:166  0:000   sound channels=2 bits=16 freq=44100
+73:025  2:858  free sound
+73:025  0:000  sound play end with status=Success
+73:026  0:001  Loading font from ThemeDir: Success
+73:027  0:000  exit from MainMenu 7
+74:338  1:311  can't bear mouse at all! Status=Unsupported
+77:688  3:349  Found BIOS RSDP at F0020
+77:688  0:000  Printing ACPI tables from RSDP F0020 ...
+77:688  0:000   F0020: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+77:688  0:000    (Xsdt: 6FFD40B8, Rsdt: 6FFD4028)
+77:688  0:000    6FFD40B8: 'XSDT', 'CBX3', Rev: 1, Len: 244
+77:688  0:000    6FFD4028: 'RSDT', 'CBX3', Rev: 1, Len: 140
+77:688  0:000    Tables in Xsdt: 26
+77:688  0:000    0. 6FFF1CC0: 'FACP', 'CBX3', Rev: 5, Len: 268
+77:688  0:000        (Dsdt: 6FFD4240, Facs: 6FF97F80, XDsdt: 6FFD4240, XFacs: 0)
+77:688  0:000        6FFD4240: 'DSDT', 'CBX3', Rev: 2, Len: 121468
+77:690  0:001        6FF97F80: 'FACS', Ver: 2, Len: 64
+77:690  0:000    1. 6FFF1DD0: 'APIC', 'CBX3', Rev: 3, Len: 132
+77:690  0:000    2. 6FFF1E58: 'FPDT', 'CBX3', Rev: 1, Len: 68
+77:690  0:000    3. 6FFF1EA0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+77:690  0:000    4. 6FFF1F40: 'MCFG', 'CBX3', Rev: 1, Len: 60
+77:690  0:000    5. 6FFF1F80: 'HPET', 'CBX3', Rev: 1, Len: 56
+77:690  0:000    6. 6FFF1FB8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+77:690  0:000    7. 6FFF22D0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+77:690  0:000    8. 6FFF2368: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+77:690  0:000    9. 6FFF25B0: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+77:690  0:000    10. 6FFF5160: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+77:690  0:000    11. 6FFF5DA8: 'DBGP', '', Rev: 1, Len: 52
+77:690  0:000    12. 6FFF5DE0: 'DBG2', '', Rev: 0, Len: 84
+77:690  0:000    13. 6FFF5E38: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1856
+77:690  0:000    14. 6FFF6578: 'BOOT', 'CBX3', Rev: 1, Len: 40
+77:690  0:000    15. 6FFF65A0: 'SSDT', 'SaSsdt', Rev: 2, Len: 13617
+77:690  0:000    16. 6FFF9AD8: 'UEFI', '', Rev: 1, Len: 66
+77:690  0:000    17. 6FFF9B20: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+77:690  0:000    18. 6FFFA978: 'MSDM', 'CBX3', Rev: 3, Len: 85
+77:690  0:000    19. 6FFFA9D0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+77:690  0:000    20. 6FFFAB48: 'BGRT', '', Rev: 0, Len: 56
+77:690  0:000    21. 6FFFAB80: 'SSDT', 'SgPch', Rev: 2, Len: 1319
+77:690  0:000    22. 6FFFB0A8: 'DMAR', 'SKL', Rev: 1, Len: 240
+77:690  0:000    23. 6FFFB198: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+77:690  0:000    24. 6FFFB1D0: 'SSDT', 'AmdTabl', Rev: 1, Len: 3528
+77:690  0:000    25. 6FFFBF98: 'ASF!', ' HCG', Rev: 32, Len: 165
+77:690  0:000    Tables in Rsdt: 26
+77:690  0:000    0. 6FFD41B8: 'FACP', 'CBX3', Rev: 2, Len: 132
+77:690  0:000        (Dsdt: 6FFD4240, Facs: 6FF97F40)
+77:690  0:000        6FFD4240: 'DSDT', 'CBX3', Rev: 2, Len: 121468
+77:692  0:001        6FF97F40: 'FACS', Ver: 0, Len: 64
+77:692  0:000    1. 6FFF1DD0: 'APIC', 'CBX3', Rev: 3, Len: 132
+77:692  0:000    2. 6FFF1E58: 'FPDT', 'CBX3', Rev: 1, Len: 68
+77:692  0:000    3. 6FFF1EA0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+77:692  0:000    4. 6FFF1F40: 'MCFG', 'CBX3', Rev: 1, Len: 60
+77:692  0:000    5. 6FFF1F80: 'HPET', 'CBX3', Rev: 1, Len: 56
+77:692  0:000    6. 6FFF1FB8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+77:692  0:000    7. 6FFF22D0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+77:692  0:000    8. 6FFF2368: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+77:692  0:000    9. 6FFF25B0: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+77:692  0:000    10. 6FFF5160: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+77:692  0:000    11. 6FFF5DA8: 'DBGP', '', Rev: 1, Len: 52
+77:692  0:000    12. 6FFF5DE0: 'DBG2', '', Rev: 0, Len: 84
+77:692  0:000    13. 6FFF5E38: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1856
+77:692  0:000    14. 6FFF6578: 'BOOT', 'CBX3', Rev: 1, Len: 40
+77:692  0:000    15. 6FFF65A0: 'SSDT', 'SaSsdt', Rev: 2, Len: 13617
+77:692  0:000    16. 6FFF9AD8: 'UEFI', '', Rev: 1, Len: 66
+77:692  0:000    17. 6FFF9B20: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+77:692  0:000    18. 6FFFA978: 'MSDM', 'CBX3', Rev: 3, Len: 85
+77:692  0:000    19. 6FFFA9D0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+77:692  0:000    20. 6FFFAB48: 'BGRT', '', Rev: 0, Len: 56
+77:692  0:000    21. 6FFFAB80: 'SSDT', 'SgPch', Rev: 2, Len: 1319
+77:692  0:000    22. 6FFFB0A8: 'DMAR', 'SKL', Rev: 1, Len: 240
+77:692  0:000    23. 6FFFB198: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+77:692  0:000    24. 6FFFB1D0: 'SSDT', 'AmdTabl', Rev: 1, Len: 3528
+77:692  0:000    25. 6FFFBF98: 'ASF!', ' HCG', Rev: 32, Len: 165
+77:692  0:000  Found UEFI Acpi 2.0 RSDP at 6FFD4000
+77:692  0:000  Saving ACPI tables from RSDP 6FFD4000 to EFI\CLOVER\ACPI\origin ...
+77:692  0:000   6FFD4000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+77:708  0:015    (Xsdt: 6FFD40B8, Rsdt: 6FFD4028)
+77:708  0:000    6FFD40B8: 'XSDT', 'CBX3', Rev: 1, Len: 244 -> XSDT.aml
+77:724  0:016    6FFD4028: 'RSDT', 'CBX3', Rev: 1, Len: 140 -> RSDT.aml
+77:741  0:016    Tables in Xsdt: 26
+77:741  0:000    0. 6FFF1CC0: 'FACP', 'CBX3', Rev: 5, Len: 268 -> FACP.aml
+77:758  0:016        (Dsdt: 6FFD4240, Facs: 6FF97F80, XDsdt: 6FFD4240, XFacs: 0)
+77:758  0:000        6FFD4240: 'DSDT', 'CBX3', Rev: 2, Len: 121468 -> DSDT.aml
+77:779  0:021        6FF97F80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+77:796  0:016    1. 6FFF1DD0: 'APIC', 'CBX3', Rev: 3, Len: 132 -> APIC.aml
+77:811  0:015    2. 6FFF1E58: 'FPDT', 'CBX3', Rev: 1, Len: 68 -> FPDT.aml
+77:826  0:015    3. 6FFF1EA0: 'FIDT', 'CBX3', Rev: 1, Len: 156 -> FIDT.aml
+77:842  0:016    4. 6FFF1F40: 'MCFG', 'CBX3', Rev: 1, Len: 60 -> MCFG.aml
+77:858  0:015    5. 6FFF1F80: 'HPET', 'CBX3', Rev: 1, Len: 56 -> HPET.aml
+77:873  0:015    6. 6FFF1FB8: 'SSDT', 'SataTabl', Rev: 1, Len: 789 -> SSDT-0-SataTabl.aml
+77:889  0:016    7. 6FFF22D0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148 -> LPIT.aml
+77:905  0:015    8. 6FFF2368: 'SSDT', 'sensrhub', Rev: 2, Len: 584 -> SSDT-1-sensrhub.aml
+77:920  0:015    9. 6FFF25B0: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182 -> SSDT-2-PtidDevc.aml
+77:936  0:015    10. 6FFF5160: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141 -> SSDT-3-Ther_Rvp.aml
+77:951  0:015    11. 6FFF5DA8: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+77:977  0:025    12. 6FFF5DE0: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
+77:992  0:015    13. 6FFF5E38: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1856 -> SSDT-4-xh_rvp07.aml
+78:008  0:015    14. 6FFF6578: 'BOOT', 'CBX3', Rev: 1, Len: 40 -> BOOT.aml
+78:023  0:015    15. 6FFF65A0: 'SSDT', 'SaSsdt', Rev: 2, Len: 13617 -> SSDT-5-SaSsdt.aml
+78:039  0:015    16. 6FFF9AD8: 'UEFI', '', Rev: 1, Len: 66 -> UEFI.aml
+78:054  0:015    17. 6FFF9B20: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672 -> SSDT-6-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+78:070  0:015        * 6F537698: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1566  53 53 44 54 1E 06 00 00 02 B7 50 6D 52 65 66 00 Internal length = 1566 -> SSDT-x6_0-Cpu0Ist.aml
+78:085  0:015        * 6F536618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 CE 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x6_1-ApIst.aml
+78:101  0:015        * 6F536C18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 65 50 6D 52 65 66 00 Internal length = 895 -> SSDT-x6_2-Cpu0Cst.aml
+78:116  0:015        * 6F587C18: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EA 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x6_3-ApCst.aml
+78:132  0:016        * 6D734B18: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 2B 50 6D 52 65 66 00 Internal length = 142 -> SSDT-x6_4-Cpu0Hwp.aml
+78:148  0:015        * 6D8B7318: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 FD 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x6_5-ApHwp.aml
+78:163  0:015        * 6D8B7198: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 85 50 6D 52 65 66 00 Internal length = 304 -> SSDT-x6_6-HwpLvt.aml
+78:179  0:015  
+78:179  0:000    18. 6FFFA978: 'MSDM', 'CBX3', Rev: 3, Len: 85 -> MSDM.aml
+78:194  0:015    19. 6FFFA9D0: 'SLIC', 'CBX3', Rev: 3, Len: 374 -> SLIC.aml
+78:211  0:016    20. 6FFFAB48: 'BGRT', '', Rev: 0, Len: 56 -> BGRT.aml
+78:227  0:016    21. 6FFFAB80: 'SSDT', 'SgPch', Rev: 2, Len: 1319 -> SSDT-7-SgPch.aml
+78:243  0:016    22. 6FFFB0A8: 'DMAR', 'SKL', Rev: 1, Len: 240 -> DMAR.aml
+78:258  0:015    23. 6FFFB198: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52 -> TPM2.aml
+78:274  0:015    24. 6FFFB1D0: 'SSDT', 'AmdTabl', Rev: 1, Len: 3528 -> SSDT-8-AmdTabl.aml
+78:289  0:015    25. 6FFFBF98: 'ASF!', ' HCG', Rev: 32, Len: 165 -> ASF!.aml
+78:305  0:015    Tables in Rsdt: 26
+78:305  0:000    0. 6FFD41B8: 'FACP', 'CBX3', Rev: 2, Len: 132 -> RSDT-FACP.aml
+78:320  0:015        (Dsdt: 6FFD4240, Facs: 6FF97F40)
+78:320  0:000        6FFD4240: 'DSDT', 'CBX3', Rev: 2, Len: 121468
+78:322  0:002        6FF97F40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+78:337  0:015    1. 6FFF1DD0: 'APIC', 'CBX3', Rev: 3, Len: 132
+78:337  0:000    2. 6FFF1E58: 'FPDT', 'CBX3', Rev: 1, Len: 68
+78:337  0:000    3. 6FFF1EA0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+78:337  0:000    4. 6FFF1F40: 'MCFG', 'CBX3', Rev: 1, Len: 60
+78:337  0:000    5. 6FFF1F80: 'HPET', 'CBX3', Rev: 1, Len: 56
+78:337  0:000    6. 6FFF1FB8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+78:337  0:000    7. 6FFF22D0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+78:337  0:000    8. 6FFF2368: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+78:337  0:000    9. 6FFF25B0: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+78:337  0:000    10. 6FFF5160: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+78:337  0:000    11. 6FFF5DA8: 'DBGP', '', Rev: 1, Len: 52
+78:337  0:000    12. 6FFF5DE0: 'DBG2', '', Rev: 0, Len: 84
+78:337  0:000    13. 6FFF5E38: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1856
+78:337  0:000    14. 6FFF6578: 'BOOT', 'CBX3', Rev: 1, Len: 40
+78:337  0:000    15. 6FFF65A0: 'SSDT', 'SaSsdt', Rev: 2, Len: 13617
+78:337  0:000    16. 6FFF9AD8: 'UEFI', '', Rev: 1, Len: 66
+78:337  0:000    17. 6FFF9B20: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+78:337  0:000    18. 6FFFA978: 'MSDM', 'CBX3', Rev: 3, Len: 85
+78:337  0:000    19. 6FFFA9D0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+78:337  0:000    20. 6FFFAB48: 'BGRT', '', Rev: 0, Len: 56
+78:337  0:000    21. 6FFFAB80: 'SSDT', 'SgPch', Rev: 2, Len: 1319
+78:337  0:000    22. 6FFFB0A8: 'DMAR', 'SKL', Rev: 1, Len: 240
+78:337  0:000    23. 6FFFB198: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+78:337  0:000    24. 6FFFB1D0: 'SSDT', 'AmdTabl', Rev: 1, Len: 3528
+78:337  0:000    25. 6FFFBF98: 'ASF!', ' HCG', Rev: 32, Len: 165
+78:337  0:000  Found UEFI Acpi 1.0 RSDP at 6FFD4000
+78:337  0:000  Printing ACPI tables from RSDP 6FFD4000 ...
+78:337  0:000   6FFD4000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+78:337  0:000    (Xsdt: 6FFD40B8, Rsdt: 6FFD4028)
+78:337  0:000    6FFD40B8: 'XSDT', 'CBX3', Rev: 1, Len: 244
+78:337  0:000    6FFD4028: 'RSDT', 'CBX3', Rev: 1, Len: 140
+78:337  0:000    Tables in Xsdt: 26
+78:337  0:000    0. 6FFF1CC0: 'FACP', 'CBX3', Rev: 5, Len: 268
+78:337  0:000        (Dsdt: 6FFD4240, Facs: 6FF97F80, XDsdt: 6FFD4240, XFacs: 0)
+78:337  0:000        6FFD4240: 'DSDT', 'CBX3', Rev: 2, Len: 121468
+78:339  0:002        6FF97F80: 'FACS', Ver: 2, Len: 64
+78:339  0:000    1. 6FFF1DD0: 'APIC', 'CBX3', Rev: 3, Len: 132
+78:339  0:000    2. 6FFF1E58: 'FPDT', 'CBX3', Rev: 1, Len: 68
+78:339  0:000    3. 6FFF1EA0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+78:339  0:000    4. 6FFF1F40: 'MCFG', 'CBX3', Rev: 1, Len: 60
+78:339  0:000    5. 6FFF1F80: 'HPET', 'CBX3', Rev: 1, Len: 56
+78:339  0:000    6. 6FFF1FB8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+78:339  0:000    7. 6FFF22D0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+78:339  0:000    8. 6FFF2368: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+78:339  0:000    9. 6FFF25B0: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+78:339  0:000    10. 6FFF5160: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+78:339  0:000    11. 6FFF5DA8: 'DBGP', '', Rev: 1, Len: 52
+78:339  0:000    12. 6FFF5DE0: 'DBG2', '', Rev: 0, Len: 84
+78:339  0:000    13. 6FFF5E38: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1856
+78:339  0:000    14. 6FFF6578: 'BOOT', 'CBX3', Rev: 1, Len: 40
+78:339  0:000    15. 6FFF65A0: 'SSDT', 'SaSsdt', Rev: 2, Len: 13617
+78:339  0:000    16. 6FFF9AD8: 'UEFI', '', Rev: 1, Len: 66
+78:339  0:000    17. 6FFF9B20: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+78:339  0:000    18. 6FFFA978: 'MSDM', 'CBX3', Rev: 3, Len: 85
+78:339  0:000    19. 6FFFA9D0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+78:339  0:000    20. 6FFFAB48: 'BGRT', '', Rev: 0, Len: 56
+78:339  0:000    21. 6FFFAB80: 'SSDT', 'SgPch', Rev: 2, Len: 1319
+78:339  0:000    22. 6FFFB0A8: 'DMAR', 'SKL', Rev: 1, Len: 240
+78:339  0:000    23. 6FFFB198: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+78:339  0:000    24. 6FFFB1D0: 'SSDT', 'AmdTabl', Rev: 1, Len: 3528
+78:339  0:000    25. 6FFFBF98: 'ASF!', ' HCG', Rev: 32, Len: 165
+78:339  0:000    Tables in Rsdt: 26
+78:339  0:000    0. 6FFD41B8: 'FACP', 'CBX3', Rev: 2, Len: 132
+78:339  0:000        (Dsdt: 6FFD4240, Facs: 6FF97F40)
+78:339  0:000        6FFD4240: 'DSDT', 'CBX3', Rev: 2, Len: 121468
+78:341  0:002        6FF97F40: 'FACS', Ver: 0, Len: 64
+78:341  0:000    1. 6FFF1DD0: 'APIC', 'CBX3', Rev: 3, Len: 132
+78:341  0:000    2. 6FFF1E58: 'FPDT', 'CBX3', Rev: 1, Len: 68
+78:341  0:000    3. 6FFF1EA0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+78:341  0:000    4. 6FFF1F40: 'MCFG', 'CBX3', Rev: 1, Len: 60
+78:341  0:000    5. 6FFF1F80: 'HPET', 'CBX3', Rev: 1, Len: 56
+78:341  0:000    6. 6FFF1FB8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+78:341  0:000    7. 6FFF22D0: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+78:341  0:000    8. 6FFF2368: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+78:341  0:000    9. 6FFF25B0: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+78:341  0:000    10. 6FFF5160: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3141
+78:341  0:000    11. 6FFF5DA8: 'DBGP', '', Rev: 1, Len: 52
+78:341  0:000    12. 6FFF5DE0: 'DBG2', '', Rev: 0, Len: 84
+78:341  0:000    13. 6FFF5E38: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1856
+78:341  0:000    14. 6FFF6578: 'BOOT', 'CBX3', Rev: 1, Len: 40
+78:341  0:000    15. 6FFF65A0: 'SSDT', 'SaSsdt', Rev: 2, Len: 13617
+78:341  0:000    16. 6FFF9AD8: 'UEFI', '', Rev: 1, Len: 66
+78:341  0:000    17. 6FFF9B20: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+78:341  0:000    18. 6FFFA978: 'MSDM', 'CBX3', Rev: 3, Len: 85
+78:341  0:000    19. 6FFFA9D0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+78:341  0:000    20. 6FFFAB48: 'BGRT', '', Rev: 0, Len: 56
+78:341  0:000    21. 6FFFAB80: 'SSDT', 'SgPch', Rev: 2, Len: 1319
+78:341  0:000    22. 6FFFB0A8: 'DMAR', 'SKL', Rev: 1, Len: 240
+78:341  0:000    23. 6FFFB198: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+78:341  0:000    24. 6FFFB1D0: 'SSDT', 'AmdTabl', Rev: 1, Len: 3528
+78:341  0:000    25. 6FFFBF98: 'ASF!', ' HCG', Rev: 32, Len: 165
+78:924  0:582  can't bear mouse at sel! Status=Unsupported
+79:830  0:905  can't bear mouse at sel! Status=Unsupported
+80:316  0:485  exit from MainMenu 1
+80:316  0:000  Boot option Boot0000 not found
+80:316  0:000  === [ StartLoader ] =======================================
+80:316  0:000  Finally: ExternalClock=26MHz BusSpeed=100015kHz CPUFreq=2400MHz PIS: hw.busfrequency=104000000Hz
+80:316  0:000  Loading boot.efi  status=Success
+80:338  0:022  GetOSVersion: 10.15 (19A501i)
+80:338  0:000  CSR_CFG: CSR_ALLOW_UNTRUSTED_KEXTS | CSR_ALLOW_UNRESTRICTED_FS | CSR_ALLOW_TASK_FOR_PID | CSR_ALLOW_UNRESTRICTED_DTRACE | CSR_ALLOW_UNRESTRICTED_NVRAM
+80:338  0:000  Filtering KextPatches:
+80:338  0:000   - [00]: com.apple.driver.AppleIntelLpssI2C (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: [OS: 10.15 | MatchOS: All | MatchBuild: All] ==> allowed
+80:338  0:000   - [01]: com.apple.driver.AppleIntelLpssI2CController (Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar) :: PlistPatch :: [OS: 10.15 | MatchOS: All | MatchBuild: All] ==> allowed
+80:338  0:000   - [02]: com.apple.driver.AppleIntelBDWGraphicsFramebuffer (Disable minStolenSize less or equal fStolenMemorySize assertion, 10.14 Credits (Sniki)) :: BinPatch :: [OS: 10.15 | MatchOS: All | MatchBuild: All] ==> allowed
+80:338  0:000  Will not patch boot.efi
+80:338  0:000  === [ PatchSmbios ] =======================================
+80:338  0:000  insert table 9 for dev 0:0
+80:338  0:000  insert table 9 for dev 0:0
+80:338  0:000  insert table 9 for dev 0:0
+80:338  0:000  Table 11 present, but rewritten for us
+80:339  0:001  Trusting SMBIOS...
+80:339  0:000  Detected alternating SMBIOS channel banks
+80:339  0:000  Channels: 2
+80:339  0:000  Interleave: 0 2 1 3 4 6 5 7 8 10 9 11 12 14 13 15 16 18 17 19 20 22 21 23
+80:339  0:000   partNum=M471B5173EB0-YK0  
+80:339  0:000  SMBIOS Type 17 Index = 0 => 0 0:
+80:339  0:000  BANK 0 DIMM0 1600MHz 4096MB
+80:339  0:000   partNum=M471B5173EB0-YK0  
+80:339  0:000  SMBIOS Type 17 Index = 1 => 1 2:
+80:339  0:000  BANK 1 DIMM0 1600MHz 4096MB
+80:339  0:000  mTotalSystemMemory = 8192
+80:339  0:000  NumberOfMemoryDevices = 2
+80:339  0:000  Type20[0]->End = 0x3FFFFF, Type17[0] = 0x1000
+80:339  0:000  Type20[1]->End = 0x7FFFFF, Type17[1] = 0x3000
+80:339  0:000  Table 131 is present, CPUType=31
+80:339  0:000  Change to: 605
+80:339  0:000  === [ PatchACPI ] =========================================
+80:339  0:000  Xsdt reallocation done
+80:339  0:000  old FADT length=10C
+80:339  0:000   SignatureFixup: 0x5 -> 0x0
+80:339  0:000  Apply DsdtFixMask=0x00000011
+80:339  0:000     drop _DSM mask=0x0000
+80:339  0:000  === [ FixBiosDsdt ] =======================================
+80:339  0:000  Patching DSDT:
+80:339  0:000   - [change BRT6 to BRTX]: pattern 20425254, patched at: [ (1BF88) ]
+80:340  0:000   - [change _DSM to XDSM (NVDIMM)]: pattern 5F44534D, patched at: [ (2C99) (416) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (37E) (1A1F) (97) (52) (C8D) (104) (5ED) (263) (11) (51) (22) (21) (15) (14) (1E) (142F) (EE) (EE) (EE) (EE) (EE) (D9) (D9) (12A) (12A) (12A) (229) (48A) (107D) (14A) (B8) (2F) (4C) (159E) (4D9) (4BC) (4BC) (4BC) (4D5) (4BC) (4BC) (4BC) (4D5) (4BC) (4BC) (4BC) (4BC) (4BC) (4BC) (4BC) (4BC) (4BC) (4BC) (4BC) (259C) (2FCE) ]
+80:340  0:000   - [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, patched at: [ (1B76A) (19C) (E2) (F) (6AA) (E94) ]
+80:340  0:000   - [change _OSI to XOSI (OS)]: pattern 5F4F5349, patched at: [ (79D7) (7114) (3) (11) (18) (1C) (1C) (1A) (18) (18) (18) (18) (CD31) (3) (D) (D) (D) (13) (14) ]
+80:340  0:000   - [_STA  to XSTA in RTC]: - [ACPI0008:_STA to XSTA]: disabled
+80:341  0:000   - [EV5 renamed XEV5]: pattern 4556355F, patched at: [ (1D89D) ]
+80:341  0:000   - [LID0 renamed LID]: pattern 4C494430, patched at: [ (1BAF5) (4C3) (B) (71) (D) (13) (1E) (106D) (A6) ]
+80:341  0:000   - [_PTS to ZPTS(1,N)]: pattern 5F505453, patched at: [ (7645) ]
+80:341  0:000   - [_WAK to ZWAK(1,N)]: pattern 5F57414B, patched at: [ (767D) ]
+80:342  0:000   - [_LID to XLID]: pattern 5F4C4944, patched at: [ (1D10B) ]
+80:342  0:000   - [change GFX0 to IGPU]: pattern 47465830, patched at: [ (2C82) (B39F) (1B) (C00) (A) (6AFD) (1666) (318B) (14) (1B0F) (1E2E) (18) (18) (32) (11) (65) (32) (44) ]
+80:342  0:000   - [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+80:342  0:000   - [change HDAS to HDEF]: pattern 48444153, patched at: [ (8CAE) (160E) (86) (D) (A1) (6A) ]
+80:342  0:000   - [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+80:342  0:000   - [change EHC1 to EH01]: pattern 45484331, bin not found / already patched!
+80:343  0:000   - [change H_EC to EC]: pattern 485F4543, patched at: [ (E6E5) ]
+80:343  0:000   - [change ECDV to EC]: pattern 45434456, patched at: [ (1C1EA) (6C3) (3E) (1C) (1B) (DC0) (122) (210) ]
+80:343  0:000   - [change LPC to LPCB]: pattern 4C50435F, patched at: [ (8D95) (9) ]
+80:343  0:000    0 replacements
+80:344  0:000  Start HPET Fix
+80:344  0:000  PreCleanup XSDT: count=26, length=244
+80:344  0:000  PreCleanup XSDT, corrected XSDT: count=26, length=244
+80:344  0:000  === [ ACPIDropTables ] ====================================
+80:344  0:000  Drop tables from XSDT, SIGN=DMAR TableID=SKL  Length=240
+80:344  0:000   Table[22]: DMAR  SKL   240 dropped
+80:344  0:000  Patching SSDT SataTabl Length=789
+80:344  0:000  0. [change BRT6 to BRTX]: pattern 20425254, bin not found / already patched!
+80:344  0:000  1. [change _DSM to XDSM (NVDIMM)]: pattern 5F44534D, bin not found / already patched!
+80:345  0:000  2. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, bin not found / already patched!
+80:345  0:000  3. [change _OSI to XOSI (OS)]: pattern 5F4F5349, bin not found / already patched!
+80:345  0:000  4. [_STA  to XSTA in RTC]: pattern 5F535441, bin not found / already patched!
+80:345  0:000  5. [ACPI0008:_STA to XSTA]: disabled
+80:345  0:000  6. [EV5 renamed XEV5]: pattern 4556355F, bin not found / already patched!
+80:345  0:000  7. [LID0 renamed LID]: pattern 4C494430, bin not found / already patched!
+80:345  0:000  8. [_PTS to ZPTS(1,N)]: pattern 5F505453, bin not found / already patched!
+80:345  0:000  9. [_WAK to ZWAK(1,N)]: pattern 5F57414B, bin not found / already patched!
+80:345  0:000  10. [_LID to XLID]: pattern 5F4C4944, bin not found / already patched!
+80:345  0:000  11. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+80:345  0:000  12. [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+80:345  0:000  13. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+80:345  0:000  14. [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+80:345  0:000  15. [change EHC1 to EH01]: pattern 45484331, bin not found / already patched!
+80:345  0:000  16. [change H_EC to EC]: pattern 485F4543, bin not found / already patched!
+80:345  0:000  17. [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+80:345  0:000  18. [change LPC to LPCB]: pattern 4C50435F, bin not found / already patched!
+80:345  0:000    0 replacements
+80:345  0:000  Patching SSDT sensrhub Length=584
+80:345  0:000  0. [change BRT6 to BRTX]: pattern 20425254, bin not found / already patched!
+80:345  0:000  1. [change _DSM to XDSM (NVDIMM)]: pattern 5F44534D, patched at: [ (51) ]
+80:345  0:000  2. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, bin not found / already patched!
+80:345  0:000  3. [change _OSI to XOSI (OS)]: pattern 5F4F5349, bin not found / already patched!
+80:345  0:000  4. [_STA  to XSTA in RTC]: pattern 5F535441, patched at: [ (33) ]
+80:345  0:000  5. [ACPI0008:_STA to XSTA]: disabled
+80:345  0:000  6. [EV5 renamed XEV5]: pattern 4556355F, bin not found / already patched!
+80:345  0:000  7. [LID0 renamed LID]: pattern 4C494430, bin not found / already patched!
+80:345  0:000  8. [_PTS to ZPTS(1,N)]: pattern 5F505453, bin not found / already patched!
+80:345  0:000  9. [_WAK to ZWAK(1,N)]: pattern 5F57414B, bin not found / already patched!
+80:345  0:000  10. [_LID to XLID]: pattern 5F4C4944, bin not found / already patched!
+80:345  0:000  11. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+80:345  0:000  12. [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+80:345  0:000  13. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+80:345  0:000  14. [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+80:345  0:000  15. [change EHC1 to EH01]: pattern 45484331, bin not found / already patched!
+80:345  0:000  16. [change H_EC to EC]: pattern 485F4543, bin not found / already patched!
+80:345  0:000  17. [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+80:345  0:000  18. [change LPC to LPCB]: pattern 4C50435F, bin not found / already patched!
+80:345  0:000    0 replacements
+80:345  0:000  Patching SSDT PtidDevc Length=11182
+80:345  0:000  0. [change BRT6 to BRTX]: pattern 20425254, bin not found / already patched!
+80:345  0:000  1. [change _DSM to XDSM (NVDIMM)]: pattern 5F44534D, bin not found / already patched!
+80:345  0:000  2. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, bin not found / already patched!
+80:345  0:000  3. [change _OSI to XOSI (OS)]: pattern 5F4F5349, bin not found / already patched!
+80:345  0:000  4. [_STA  to XSTA in RTC]: pattern 5F535441, patched at: [ (41) ]
+80:345  0:000  5. [ACPI0008:_STA to XSTA]: disabled
+80:345  0:000  6. [EV5 renamed XEV5]: pattern 4556355F, bin not found / already patched!
+80:345  0:000  7. [LID0 renamed LID]: pattern 4C494430, bin not found / already patched!
+80:345  0:000  8. [_PTS to ZPTS(1,N)]: pattern 5F505453, bin not found / already patched!
+80:345  0:000  9. [_WAK to ZWAK(1,N)]: pattern 5F57414B, bin not found / already patched!
+80:345  0:000  10. [_LID to XLID]: pattern 5F4C4944, bin not found / already patched!
+80:345  0:000  11. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+80:345  0:000  12. [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+80:345  0:000  13. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+80:345  0:000  14. [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+80:345  0:000  15. [change EHC1 to EH01]: pattern 45484331, bin not found / already patched!
+80:345  0:000  16. [change H_EC to EC]: pattern 485F4543, patched at: [ (C11) (17) (14) (25) (14) (25) (14) (25) (14) (25) (14) (25) (14) (25) (14) (25) (14) (3E) (1A) (14) (24) (14) (24) (14) (24) (14) (24) (14) (121) (17) (14) (25) (14) (25) (14) (25) (14) (25) (14) (25) (14) (25) (14) (25) (14) (25) (14) (56) (1A) (14) (24) (14) (24) (14) (24) (14) (98) (15) (14) (1B) (14) (1D) (14) (1E) (14) (1C) (14) (1E) (14) (1E) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1D) (14) (16) (14) (35) (14) (16) (14) (4A) (6A) (14) (1B) (14) (1B) (14) (1D) (14) (20) (14) (20) (14) (20) (14) (20) (14) (52) (14) (1B) (14) (1B) (14) (1D) (14) (20) (14) (20) (14) (20) (14) (AB) (15) (14) (1B) (14) (1B) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (3A) (14) (19) (13) (19) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (21) (14) (21) (14) (23) (15) (14) (25) (15) (14) (19) (14) (1D) (14) (1D) (14) ]
+80:345  0:000  17. [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+80:345  0:000  18. [change LPC to LPCB]: pattern 4C50435F, bin not found / already patched!
+80:345  0:000    0 replacements
+80:345  0:000  Patching SSDT Ther_Rvp Length=3141
+80:345  0:000  0. [change BRT6 to BRTX]: pattern 20425254, bin not found / already patched!
+80:345  0:000  1. [change _DSM to XDSM (NVDIMM)]: pattern 5F44534D, bin not found / already patched!
+80:345  0:000  2. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, bin not found / already patched!
+80:345  0:000  3. [change _OSI to XOSI (OS)]: pattern 5F4F5349, bin not found / already patched!
+80:345  0:000  4. [_STA  to XSTA in RTC]: pattern 5F535441, patched at: [ (55) (143) (14A) (148) (148) ]
+80:345  0:000  5. [ACPI0008:_STA to XSTA]: disabled
+80:345  0:000  6. [EV5 renamed XEV5]: pattern 4556355F, bin not found / already patched!
+80:345  0:000  7. [LID0 renamed LID]: pattern 4C494430, bin not found / already patched!
+80:345  0:000  8. [_PTS to ZPTS(1,N)]: pattern 5F505453, bin not found / already patched!
+80:345  0:000  9. [_WAK to ZWAK(1,N)]: pattern 5F57414B, bin not found / already patched!
+80:345  0:000  10. [_LID to XLID]: pattern 5F4C4944, bin not found / already patched!
+80:345  0:000  11. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+80:345  0:000  12. [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+80:345  0:000  13. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+80:345  0:000  14. [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+80:345  0:000  15. [change EHC1 to EH01]: pattern 45484331, bin not found / already patched!
+80:345  0:000  16. [change H_EC to EC]: pattern 485F4543, patched at: [ (8B) (18) (13) (3B) (18) (15) (15) (13) (76) (18) (13) (3B) (15) (15) (15) (13) (76) (15) (13) (3B) (15) (15) (15) (13) (77) (15) (13) (3B) (15) (15) (15) (13) (77) (15) (13) (31) (15) (13) (27B) (14) (183) (14) (1A) (14) ]
+80:345  0:000  17. [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+80:345  0:000  18. [change LPC to LPCB]: pattern 4C50435F, bin not found / already patched!
+80:345  0:000    0 replacements
+80:345  0:000  Patching SSDT xh_rvp07 Length=1856
+80:345  0:000  0. [change BRT6 to BRTX]: pattern 20425254, bin not found / already patched!
+80:345  0:000  1. [change _DSM to XDSM (NVDIMM)]: pattern 5F44534D, bin not found / already patched!
+80:345  0:000  2. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, bin not found / already patched!
+80:345  0:000  3. [change _OSI to XOSI (OS)]: pattern 5F4F5349, bin not found / already patched!
+80:345  0:000  4. [_STA  to XSTA in RTC]: pattern 5F535441, patched at: [ (4BE) (138) ]
+80:345  0:000  5. [ACPI0008:_STA to XSTA]: disabled
+80:345  0:000  6. [EV5 renamed XEV5]: pattern 4556355F, bin not found / already patched!
+80:345  0:000  7. [LID0 renamed LID]: pattern 4C494430, bin not found / already patched!
+80:345  0:000  8. [_PTS to ZPTS(1,N)]: pattern 5F505453, bin not found / already patched!
+80:345  0:000  9. [_WAK to ZWAK(1,N)]: pattern 5F57414B, bin not found / already patched!
+80:345  0:000  10. [_LID to XLID]: pattern 5F4C4944, bin not found / already patched!
+80:345  0:000  11. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+80:345  0:000  12. [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+80:345  0:000  13. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+80:345  0:000  14. [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+80:345  0:000  15. [change EHC1 to EH01]: pattern 45484331, bin not found / already patched!
+80:345  0:000  16. [change H_EC to EC]: pattern 485F4543, bin not found / already patched!
+80:345  0:000  17. [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+80:345  0:000  18. [change LPC to LPCB]: pattern 4C50435F, bin not found / already patched!
+80:345  0:000    0 replacements
+80:345  0:000  Patching SSDT SaSsdt  Length=13617
+80:345  0:000  0. [change BRT6 to BRTX]: pattern 20425254, bin not found / already patched!
+80:345  0:000  1. [change _DSM to XDSM (NVDIMM)]: pattern 5F44534D, patched at: [ (443) (361) (32C) (D76) ]
+80:345  0:000  2. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, bin not found / already patched!
+80:345  0:000  3. [change _OSI to XOSI (OS)]: pattern 5F4F5349, bin not found / already patched!
+80:345  0:000  4. [_STA  to XSTA in RTC]: pattern 5F535441, patched at: [ (5D4) (53) (1D) (2E9) (1E) (1D) (2E9) (1F) (1E) (1066) (33) ]
+80:345  0:000  5. [ACPI0008:_STA to XSTA]: disabled
+80:345  0:000  6. [EV5 renamed XEV5]: pattern 4556355F, bin not found / already patched!
+80:345  0:000  7. [LID0 renamed LID]: pattern 4C494430, bin not found / already patched!
+80:345  0:000  8. [_PTS to ZPTS(1,N)]: pattern 5F505453, bin not found / already patched!
+80:346  0:000  9. [_WAK to ZWAK(1,N)]: pattern 5F57414B, bin not found / already patched!
+80:346  0:000  10. [_LID to XLID]: pattern 5F4C4944, bin not found / already patched!
+80:346  0:000  11. [change GFX0 to IGPU]: pattern 47465830, patched at: [ (D92) (88A) (1D) (6F5) ]
+80:346  0:000  12. [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+80:346  0:000  13. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+80:346  0:000  14. [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+80:346  0:000  15. [change EHC1 to EH01]: pattern 45484331, bin not found / already patched!
+80:346  0:000  16. [change H_EC to EC]: pattern 485F4543, bin not found / already patched!
+80:346  0:000  17. [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+80:346  0:000  18. [change LPC to LPCB]: pattern 4C50435F, bin not found / already patched!
+80:346  0:000    0 replacements
+80:346  0:000  Found OperationRegion(SANV, SystemMemory, 6FF85D98, ...)
+80:346  0:000  Patching SSDT CpuSsdt Length=3672
+80:346  0:000  0. [change BRT6 to BRTX]: pattern 20425254, bin not found / already patched!
+80:346  0:000  1. [change _DSM to XDSM (NVDIMM)]: pattern 5F44534D, bin not found / already patched!
+80:346  0:000  2. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, bin not found / already patched!
+80:346  0:000  3. [change _OSI to XOSI (OS)]: pattern 5F4F5349, bin not found / already patched!
+80:346  0:000  4. [_STA  to XSTA in RTC]: pattern 5F535441, bin not found / already patched!
+80:346  0:000  5. [ACPI0008:_STA to XSTA]: disabled
+80:346  0:000  6. [EV5 renamed XEV5]: pattern 4556355F, bin not found / already patched!
+80:346  0:000  7. [LID0 renamed LID]: pattern 4C494430, bin not found / already patched!
+80:346  0:000  8. [_PTS to ZPTS(1,N)]: pattern 5F505453, bin not found / already patched!
+80:346  0:000  9. [_WAK to ZWAK(1,N)]: pattern 5F57414B, bin not found / already patched!
+80:346  0:000  10. [_LID to XLID]: pattern 5F4C4944, bin not found / already patched!
+80:346  0:000  11. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+80:346  0:000  12. [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+80:346  0:000  13. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+80:346  0:000  14. [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+80:346  0:000  15. [change EHC1 to EH01]: pattern 45484331, bin not found / already patched!
+80:346  0:000  16. [change H_EC to EC]: pattern 485F4543, bin not found / already patched!
+80:346  0:000  17. [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+80:346  0:000  18. [change LPC to LPCB]: pattern 4C50435F, bin not found / already patched!
+80:346  0:000    0 replacements
+80:346  0:000  Found OperationRegion(PNVS, SystemMemory, 623BD000, ...)
+80:346  0:000  Patching SSDT SgPch Length=1319
+80:346  0:000  0. [change BRT6 to BRTX]: pattern 20425254, bin not found / already patched!
+80:346  0:000  1. [change _DSM to XDSM (NVDIMM)]: pattern 5F44534D, bin not found / already patched!
+80:346  0:000  2. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, bin not found / already patched!
+80:346  0:000  3. [change _OSI to XOSI (OS)]: pattern 5F4F5349, bin not found / already patched!
+80:346  0:000  4. [_STA  to XSTA in RTC]: pattern 5F535441, patched at: [ (E1) (61) (2B) ]
+80:346  0:000  5. [ACPI0008:_STA to XSTA]: disabled
+80:346  0:000  6. [EV5 renamed XEV5]: pattern 4556355F, bin not found / already patched!
+80:346  0:000  7. [LID0 renamed LID]: pattern 4C494430, bin not found / already patched!
+80:346  0:000  8. [_PTS to ZPTS(1,N)]: pattern 5F505453, bin not found / already patched!
+80:346  0:000  9. [_WAK to ZWAK(1,N)]: pattern 5F57414B, bin not found / already patched!
+80:346  0:000  10. [_LID to XLID]: pattern 5F4C4944, bin not found / already patched!
+80:346  0:000  11. [change GFX0 to IGPU]: pattern 47465830, bin not found / already patched!
+80:346  0:000  12. [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+80:346  0:000  13. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+80:346  0:000  14. [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+80:346  0:000  15. [change EHC1 to EH01]: pattern 45484331, bin not found / already patched!
+80:346  0:000  16. [change H_EC to EC]: pattern 485F4543, bin not found / already patched!
+80:346  0:000  17. [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+80:346  0:000  18. [change LPC to LPCB]: pattern 4C50435F, bin not found / already patched!
+80:346  0:000    0 replacements
+80:346  0:000  Patching SSDT AmdTabl Length=3528
+80:346  0:000  0. [change BRT6 to BRTX]: pattern 20425254, bin not found / already patched!
+80:346  0:000  1. [change _DSM to XDSM (NVDIMM)]: pattern 5F44534D, bin not found / already patched!
+80:346  0:000  2. [change OSID to XSID (to avoid match against _OSI XOSI patch)]: pattern 4F534944, bin not found / already patched!
+80:346  0:000  3. [change _OSI to XOSI (OS)]: pattern 5F4F5349, bin not found / already patched!
+80:346  0:000  4. [_STA  to XSTA in RTC]: pattern 5F535441, bin not found / already patched!
+80:346  0:000  5. [ACPI0008:_STA to XSTA]: disabled
+80:346  0:000  6. [EV5 renamed XEV5]: pattern 4556355F, bin not found / already patched!
+80:346  0:000  7. [LID0 renamed LID]: pattern 4C494430, bin not found / already patched!
+80:346  0:000  8. [_PTS to ZPTS(1,N)]: pattern 5F505453, bin not found / already patched!
+80:346  0:000  9. [_WAK to ZWAK(1,N)]: pattern 5F57414B, bin not found / already patched!
+80:346  0:000  10. [_LID to XLID]: pattern 5F4C4944, bin not found / already patched!
+80:346  0:000  11. [change GFX0 to IGPU]: pattern 47465830, patched at: [ (6C) (A10) (10) (18) (10) (6D) (13) (10) (17) (12) (13) (12) (10) (35) (1D) (11) (10) (2A) (10) (27) (11) (10) (29) (27) (11) (10) (29) (10) ]
+80:346  0:000  12. [change AZAL to HDEF]: pattern 415A414C, bin not found / already patched!
+80:346  0:000  13. [change HDAS to HDEF]: pattern 48444153, bin not found / already patched!
+80:346  0:000  14. [change EC0 to EC]: pattern 4543305F, bin not found / already patched!
+80:346  0:000  15. [change EHC1 to EH01]: pattern 45484331, bin not found / already patched!
+80:346  0:000  16. [change H_EC to EC]: pattern 485F4543, patched at: [ (873) ]
+80:346  0:000  17. [change ECDV to EC]: pattern 45434456, bin not found / already patched!
+80:346  0:000  18. [change LPC to LPCB]: pattern 4C50435F, bin not found / already patched!
+80:346  0:000    0 replacements
+80:346  0:000  === [ ACPIPatchedAML ] ====================================
+80:346  0:000  Unsorted
+80:346  0:000  Inserting SSDT-%PTSWAK-mergePRO4.aml from EFI\CLOVER\ACPI\patched: size=614 ... Success
+80:348  0:002  Inserting SSDT-Dell_FN.aml from EFI\CLOVER\ACPI\patched: size=207 ... Success
+80:349  0:001  Inserting SSDT-PNLF.aml from EFI\CLOVER\ACPI\patched: size=671 ... Success
+80:350  0:000  Inserting SSDT-SleepDefine.aml from EFI\CLOVER\ACPI\patched: size=67 ... Success
+80:351  0:001  Inserting SSDT-Disable-DGPU.aml from EFI\CLOVER\ACPI\patched: size=1411 ... Success
+80:355  0:003  Inserting SSDT-Sleep_SB.LID.aml from EFI\CLOVER\ACPI\patched: size=135 ... Success
+80:355  0:000  Inserting SSDT-XOSI.aml from EFI\CLOVER\ACPI\patched: size=318 ... Success
+80:355  0:000  Inserting SSDT-SleepEV5-dell.aml from EFI\CLOVER\ACPI\patched: size=244 ... Success
+80:358  0:002  Inserting SSDT-UIAC.aml from EFI\CLOVER\ACPI\patched: size=456 ... Success
+80:358  0:000  CPUBase=0 and ApicCPUBase=1 ApicCPUNum=1
+80:358  0:000  Cleanup XSDT: count=35, length=316
+80:358  0:000  corrected XSDT count=34, length=308
+80:358  0:000  === [ RestSetup macOS ] ===================================
+80:358  0:000  EdidDiscovered size=128
+80:358  0:000  --- Discovered EDID Table size:128
+80:358  0:000  000  |  00  FF  FF  FF  FF  FF  FF  00  09  E5
+80:358  0:000  010  |  20  06  00  00  00  00  01  18  01  04
+80:358  0:000  020  |  95  22  13  78  0A  24  10  97  59  54
+80:358  0:000  030  |  8E  27  1E  50  54  00  00  00  01  01
+80:358  0:000  040  |  01  01  01  01  01  01  01  01  01  01
+80:358  0:000  050  |  01  01  01  01  64  1B  56  77  50  00
+80:358  0:000  060  |  13  30  30  20  36  00  58  C2  10  00
+80:358  0:000  070  |  00  1A  A2  17  56  B9  50  00  2D  30
+80:358  0:000  080  |  30  20  36  00  58  C2  10  00  00  1A
+80:358  0:000  090  |  00  00  00  FE  00  50  44  4A  4A  48
+80:358  0:000  100  |  80  4E  54  31  35  36  57  48  00  00
+80:358  0:000  110  |  00  00  00  00  41  01  94  00  10  00
+80:358  0:000  120  |  00  09  01  0A  20  20  00  9C
+80:358  0:000  add device: PciRoot(0x0)/Pci(0x2,0x0)
+80:358  0:000     Add key=model valuelen=30
+80:358  0:000     Add key=framebuffer-unifiedmem valuelen=4
+80:358  0:000     Add key=framebuffer-stolenmem valuelen=4
+80:358  0:000     Add key=framebuffer-patch-enable valuelen=4
+80:358  0:000     Add key=framebuffer-fbmem valuelen=4
+80:358  0:000     Add key=device_type valuelen=26
+80:358  0:000     Add key=device-id valuelen=4
+80:358  0:000     Add key=AAPL,slot-name valuelen=9
+80:358  0:000     Add key=AAPL,ig-platform-id valuelen=4
+80:358  0:000  Intel GFX injection not set
+80:358  0:000  ATI injection not set
+80:358  0:000   RCBA disabled; cannot use it
+80:358  0:000   setting specified layout-id=13 (0xD)
+80:358  0:000  stringlength = 2032
+80:358  0:000  CurrentMode: Width=1024 Height=768
+80:358  0:000  Beginning FSInjection
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: 6C1A6098
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: 6C1A6098
+80:365  0:006  Remap smbios table type 1 guid.
+80:368  0:002  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.15
+80:368  0:000  Extra kext: EFI\CLOVER\kexts\10.15\ACPIDebug.kext (v.0.1.4)
+80:369  0:001  Extra kext: EFI\CLOVER\kexts\10.15\VoodooPS2Controller.kext (v.1.9.2)
+80:385  0:016    |-- PlugIn kext: EFI\CLOVER\kexts\10.15\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext (v.1.9.2)
+80:391  0:005    |-- PlugIn kext: EFI\CLOVER\kexts\10.15\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext (v.1.9.2)
+80:403  0:011    |-- PlugIn kext: EFI\CLOVER\kexts\10.15\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext (v.1.9.2)
+80:416  0:012  Extra kext: EFI\CLOVER\kexts\10.15\AppleALC.kext (v.1.3.9)
+80:494  0:078  Extra kext: EFI\CLOVER\kexts\10.15\AirportBrcmFixup.kext (v.2.0.0)
+80:499  0:005  Extra kext: EFI\CLOVER\kexts\10.15\WhateverGreen.kext (v.1.3.0)
+80:514  0:014  Extra kext: EFI\CLOVER\kexts\10.15\USBInjectAll.kext (v.0.7.0)
+80:607  0:093  Extra kext: EFI\CLOVER\kexts\10.15\SATA-100-series-unsupported.kext (v.0.5.1)
+80:610  0:003  Extra kext: EFI\CLOVER\kexts\10.15\Lilu.kext (v.1.3.7)
+80:615  0:004  Extra kext: EFI\CLOVER\kexts\10.15\FakeSMC.kext (v.3.5.1)
+80:619  0:004  Extra kext: EFI\CLOVER\kexts\10.15\FakePCIID.kext (v.1.3.15)
+80:623  0:003  Extra kext: EFI\CLOVER\kexts\10.15\FakePCIID_Intel_HD_Graphics.kext (v.1.3.15)
+80:630  0:006  SetScreenResolution: 1024x768 - already set
+80:630  0:000  Custom boot is using theme logo
+80:632  0:002  Closing log
